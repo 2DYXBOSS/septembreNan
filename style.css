@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -16,16 +19,16 @@ li {
     body {
         background-color: black;
         width: 100%;
-        height: 2000px;
+        /* height: 2000px; */
     }
-
-    /* ma navbar */
     .nvbar {
         height: 100px;
         width: 100%;
         background-color: black;
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        z-index: 1;
     }
     .logo {
         height: 100px;
@@ -51,6 +54,7 @@ li {
         display: flex;
     }
     .lila {
+        
         width: 500px;
         background-color: black;
         height: 100%;
@@ -102,85 +106,234 @@ li {
         justify-content: center;
         font-size: 1rem;
     }
-
-    /* ma navbar */
-
-    /* ma photo */
-
     header {
-        height: 700px;
-        width: 100%;
-        background: url(../Image/affaires.jpg) 50% no-repeat ;
-        background-size: cover;
-        
-    
-    }
-    .stat1 {
-        height: 80%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .stata {
-        height: 70%;
-        width: 80%;
-    }
-    .stata h1{
-        font-size: 3.5rem;
-        font-weight: bold;
-    }
-    .stat {
+        padding-top: 100px;
         height: 800px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+    .traif {
+        height: 500px;
+        width: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        
+    }
+    .traif1 {
+        color: white;
+        height: 600px;
+        width: 50%;
+        background-color: black;
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .traif1 h1{
+        color: white;
+    }
+    .jahda {
+        height: 470px;
+        width: 500px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: url(./Image/istockphoto-91107037-612x612.jpg);
+        transform: rotate(45deg);
+        background-size: 800px;
+        background-position: -140px 10px;
+    }
+    .cfgd {
+        height: 60px;
         width: 90%;
         background-color: black;
-        margin: 0 auto;
+        display: flex;
+        margin-top: 20px;
     }
-    .statte {
+    .plsd1 {
+        height: 50px;
+        width: 50px;
+        background-color: green;
+        border-radius: 0% 100% 100% 100%;
+        margin-top: 150px;
+        
+        
+    }
+    .cfgd1 {
+        height: 200px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        
+        align-items: center;
+        justify-content: end;
+    }
+    .plsd {
+        padding-right: 10px;
+        padding-top: 150px;
+    }
+    
+    .zeaee {
+        height: 50px;
+        width: 140px;
+        background-color: rgb(13, 184, 13);
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    .zeaee1 {
+        height: 50px;
+        width: 140px;
+        border-radius: 15px;
+        border: 1px solid rgb(13, 184, 13);
+    }
+
+    #service {
+        height: 1200px;
+        padding-top: 100px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .titreService h1{
+        color: black;
         height: 70px;
         width: 100%;
-        background-color: black;
-    }
-    .statte1 {
-        height: 200px;
-        width: 100%;
-        background-color: black;
         display: flex;
+        text-align: center;
+        align-items: end;
         justify-content: center;
-        align-items: center;
+        font-size: 2rem;
+        color: black;
+
+        
+        
     }
-    .sta1 {
-        height: 150px;
-        width: 30%;
-        background-color: black;
-        margin-left: 5px;
+    #service h1{
+        color: black;
+        
     }
-    .statte22 {
-        height: 200px;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .statte23 {
+    .notreService1 {
         height: 300px;
         width: 100%;
-        background-color: black;
+        background-color: white;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .notreService1-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/insta.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService2-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/af.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService3-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/trab.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService1-2 {
+        height: 250px;
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: black;
+    }
+    .notreService1-2 p,h1{
+        color: black;
+    }
+    .notreServiceBou {
+        height: 50px;
+        width: 120px;
+        background-color: green;
+        border-radius: 10px;
+    }
+    #autre {
+        height: 500px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-    }
-    .retse {
-        height: 700px;
-        width: 90%;
-        background-color: rgba(136, 135, 135, 0.171);
-        margin-top: 700px;
-        margin-left: 5%;
-        margin-right: 5%;
-        border-radius: 50px;
-        border: 0.5px solid rgb(0, 128, 0);
     }
     
+    
+    .infor2 {
+        height: 500px;
+        width: 70%;
+        background: url(./Image/fina.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    #fooetr {
+        height: 700px;
+        width: 100%;
+        background-color: black;
+        padding-top: 100px;
+    }
+    .forett {
+        height: 200px;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        border-bottom: 2px solid white;
+    }
+    .forett1 {
+        height: 100px;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        
+    }
+    .forett3 {
+        background: url(./Image/map.jpg) 50% no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 70%;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        
+    }
+    .for1 {
+        height: 150px;
+        width: 25%;
+        background-color: black;
+        color: white;
+        
+    }
+    .for1 h1{
+        
+        color: white;
+        
+    }
+    .for2 {
+        height: 150px;
+        width: 25%;
+        background-color: black;
+    }
+    .for3 {
+        height: 150px;
+        width: 25%;
+        background-color: black;
+    }
+    .for4 {
+        height: 150px;
+        width: 25%;
+        background-color: black;
+    }
 }
