@@ -28,6 +28,7 @@ li {
         background-color: black;
         display: flex;
         justify-content: space-between;
+        position: fixed;
     }
     .logo {
         height: 100px;
@@ -376,6 +377,75 @@ li {
         height: 150px;
         width: 25%;
         background-color: black;
+    }
+
+    .jrskz {
+        height: 400px;
+        width: 100%;
+        background-color: aqua;
+
+    }
+
+    section{
+        height: 1700px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+    .poozr {
+        height: 90%;
+        width: 70%;
+        background-color: blue;
+    }
+
+    .khzr {
+        width: 100%;
+        height: 200px;
+        background-color: brown;
+    }
+    .ergzr {
+        width: 50%;
+        height: 200px;
+        background-color: rgb(46, 31, 31);
+    }
+    .notreService1 {
+        height: 300px;
+        width: 80%;
+        background-color: white;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .notreService1-1 {
+        height: 250px;
+        width: 400px;
+        background: url(../Image/affaires.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService1-2 {
+        height: 250px;
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: black;
+    }
+    .notreService1-2 p,h1{
+        color: black;
+    }
+    .notreServiceBou {
+        height: 50px;
+        width: 120px;
+        background-color: green;
+        border-radius: 10px;
     }
     
 }

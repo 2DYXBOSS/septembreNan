@@ -125,7 +125,7 @@ li {
         color: white;
         height: 600px;
         width: 50%;
-        background-color: black;
+        /* background-color: black; */
         padding: 20px;
         padding-top: 100px;
     }
@@ -144,7 +144,7 @@ li {
     .cfgd {
         height: 60px;
         width: 90%;
-        background-color: black;
+        /* background-color: black; */
         display: flex;
         margin-top: 20px;
     }
@@ -160,7 +160,7 @@ li {
     .cfgd1 {
         height: 200px;
         width: 100%;
-        background-color: black;
+        /* background-color: black; */
         display: flex;
         
         align-items: center;
@@ -336,4 +336,454 @@ li {
         width: 25%;
         background-color: black;
     }
+}
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    body {
+        background-color: black;
+        width: 100%;
+        /* height: 2000px; */
+    }
+    .nvbar {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+        display: none;
+    }
+    .logo {
+        height: 100px;
+        width: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1-1 {
+        height: 80%;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo1 {
+        height: 100px;
+        width: 700px;
+        background-color: black;
+        display: flex;
+    }
+    .lila {
+        
+        width: 500px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .lila nav ul{
+        display: flex;
+        height: 100%;
+    }
+    .lila nav ul a{
+        padding: 10px 20px;
+        background-color: black;
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila nav ul a:hover{
+        padding: 10px 20px;
+        text-decoration: overline rgb(30, 148, 0);
+
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila1 {
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lila1 a{
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .los {
+        height: 60%;
+        width: 80%;
+        background-color: rgb(30, 148, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    header {
+        padding-top: 100px;
+        height: 800px;
+        width: 100%;
+        background-color: black;
+        display: none;
+    }
+    .traif {
+        height: 500px;
+        width: 50%;
+        display: none;
+        align-items: start;
+        justify-content: end;
+        
+    }
+    .traif1 {
+        color: white;
+        height: 600px;
+        width: 50%;
+        /* background-color: black; */
+        padding: 20px;
+        padding-top: 100px;
+        display: none;
+    }
+    .traif1 h1{
+        color: white;
+    }
+    .jahda {
+        display: none;
+        height: 470px;
+        width: 500px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: url(./Image/istockphoto-91107037-612x612.jpg);
+        transform: rotate(45deg);
+        background-size: 800px;
+        background-position: -140px 10px;
+    }
+    .cfgd {
+        height: 60px;
+        width: 90%;
+        background-color: black;
+        display: flex;
+        margin-top: 20px;
+    }
+    .plsd1 {
+        height: 50px;
+        width: 50px;
+        background-color: green;
+        border-radius: 0% 100% 100% 100%;
+        margin-top: 150px;
+        
+        
+    }
+    .cfgd1 {
+        height: 200px;
+        width: 100%;
+        /* background-color: black; */
+        display: flex;
+        
+        align-items: center;
+        justify-content: end;
+    }
+    .plsd {
+        padding-right: 10px;
+        padding-top: 150px;
+    }
+    
+    .zeaee {
+        height: 50px;
+        width: 140px;
+        background-color: rgb(13, 184, 13);
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    .zeaee1 {
+        height: 50px;
+        width: 140px;
+        border-radius: 15px;
+        border: 1px solid rgb(13, 184, 13);
+    }
+
+    #service {
+        height: 1200px;
+        padding-top: 100px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: none;
+        
+    }
+    .titreService h1{
+        color: black;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: end;
+        justify-content: center;
+        font-size: 2rem;
+        color: black;
+
+        
+        
+    }
+    #service h1{
+        color: black;
+        
+    }
+    .notreService1 {
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .notreService1-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/insta.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService2-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/af.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService3-1 {
+        height: 250px;
+        width: 400px;
+        background: url(./Image/trab.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .notreService1-2 {
+        height: 250px;
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: black;
+    }
+    .notreService1-2 p,h1{
+        color: black;
+    }
+    .notreServiceBou {
+        height: 50px;
+        width: 120px;
+        background-color: green;
+        border-radius: 10px;
+    }
+    #autre {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .infor2 {
+        height: 500px;
+        width: 70%;
+        background: url(./Image/fina.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    #fooetr {
+        height: 700px;
+        width: 100%;
+        background-color: black;
+        padding-top: 100px;
+        display: none;
+    }
+    .forett {
+        height: 200px;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        border-bottom: 2px solid white;
+    }
+    .forett1 {
+        height: 100px;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        
+    }
+    .forett3 {
+        background: url(./Image/map.jpg) 50% no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 70%;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        
+    }
+    .nacv {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        background-color: rgb(18, 175, 12);
+        color: black;
+        z-index: 1;
+    }
+    
+    .nacv1 {
+        height: 300px;
+        width: 100%;
+        background: url(./Image/istockphoto-91107037-612x612-2.jpg) 50% no-repeat;
+        background-size: cover;
+        color: black;
+        padding-top: 70px;
+    }
+    .hehdz {
+        height: 100%;
+        width: 100%;
+        padding-top: 40px;
+        backdrop-filter: blur(10px);
+        color: rgb(255, 255, 255);
+    }
+    .nacv1 h3{
+        color: rgb(255, 255, 255);
+    }
+    .nacv1 p{
+        font-size: 0.8rem;
+        color: rgb(255, 255, 255);
+    }
+    .zucze {
+        height: 40px;
+        width: 100px;
+        background-color: green;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .nacv2 {
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .qilq {
+        height: 200px;
+        width: 70%;
+        background: url(./Image/insta.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .qilq1 {
+        height: 170px;
+        width: 70%;
+        background-color:white;
+        margin-bottom: 30px;
+    }
+    .qilq2 {
+        height: 200px;
+        width: 70%;
+        background: url(./Image/af.jpg) 50% no-repeat;
+        background-size: cover;
+
+    }
+    .errze {
+        height: 40px;
+        width: 100px;
+        background-color: green;
+        border-radius: 10px;
+        margin-top: 20px;
+       
+    }
+    .qilq22 {
+        height: 170px;
+        width: 70%;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    .qilq3 {
+        height: 200px;
+        width: 70%;
+        background: url(./Image/trab.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .qilq33 {
+        height: 170px;
+        width: 70%;
+        background-color: white;
+    }
+    .cardc {
+        height: 400px;
+        width: 70%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .ljqs {
+        height: 40%;
+        width: 100%;
+        background: url(./Image/insta.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .ljqs1 p{
+       margin-bottom: 30px;
+       color: black;
+       padding-left: 20px;
+       padding-right: 20px;
+       
+      
+    }
+    .ljqs1 a{
+       padding: 10px 30px;
+       background-color: rgb(73, 175, 5);
+       border-radius: 10px;
+       
+      
+    }
+    
+    .nacv3 {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    .lo {
+        height: 100%;
+        width: 150px;
+        
+    }
+    .lo1 {
+        height: 100%;
+        width: 100px;
+    }
+   
 }
