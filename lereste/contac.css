@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+
+
+
+@media (min-width:1200px) {
+    
+
+    body {
+        background-color: black;
+        width: 100%;
+        /* height: 2000px; */
+    }
+    .nvbar {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo {
+        height: 100px;
+        width: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1-1 {
+        height: 80%;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo1 {
+        height: 100px;
+        width: 700px;
+        background-color: black;
+        display: flex;
+    }
+    .lila {
+        
+        width: 500px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .lila nav ul{
+        display: flex;
+        height: 100%;
+    }
+    .lila nav ul a{
+        padding: 10px 20px;
+        background-color: black;
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila nav ul a:hover{
+        padding: 10px 20px;
+        text-decoration: overline rgb(30, 148, 0);
+
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila1 {
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lila1 a{
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .los {
+        height: 60%;
+        width: 80%;
+        background-color: rgb(30, 148, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .contse {
+        height: 250px;
+        width: 100%;
+        background: url(/Image/echkba.jpg) 50% no-repeat;
+        background-size: cover;
+        filter: blur(1px);
+    }
+    .contse12 {
+        height: 250px;
+        width: 80%;
+        background: url(/Image/fina.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .contse13 {
+        height: 250px;
+        width: 70%;
+        
+        display: flex;
+        gap: 5%;
+        transform: translateY(-50px);
+    }
+    .contse1 {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(41, 116, 39);
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .vrshz1 {
+        height: 100%;
+        width: 30%;
+        background-color: rgb(238, 255, 0);
+    }
+    .vrshz2 {
+        height: 100%;
+        width: 30%;
+        background-color: rgb(255, 0, 242);
+    }
+    .vrshz3 {
+        height: 100%;
+        width: 30%;
+        background-color: rgb(59, 94, 48);
+    }
+}
