@@ -17,7 +17,7 @@ li {
 
 @media (min-width:1200px) {
 
-    .nacv,.nacv1,.nacv2,.nacv3,.jhyuea,.nacv4,.fouteur {
+    .nacv,.nacv1,.nacv2,.nacv3,.jhyuea,.nacv4,.fouteur,.sortira,.sjwk2 input,.vakcd1 {
         display: none;
     }
     .aead {
@@ -356,7 +356,8 @@ li {
     #ches:checked ~ .qr {
         visibility: visible;
         opacity: 1;
-        
+        z-index: 5;
+        position: fixed;
         
     }
     #ches {
@@ -369,7 +370,7 @@ li {
         border-radius: 10px;
         position: fixed;
         top: 15%;
-        
+        z-index: 5;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -703,6 +704,84 @@ li {
     }
     #Collaboration {
         display: none;
+    }
+    .vakcd1 {
+        height: 70px;
+        width: 100%;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        display: flex;
+    }
+    .sjwk1 {
+        height: 70px;
+        width: 50%;
+        
+    }
+    .sjwk2 {
+        height: 70px;
+        width: 50%;
+       
+    }
+
+    /* #ches:checked ~ .qr {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+    }
+    #ches {
+        display: none;
+    }
+    .qr {
+        height: 500px;
+        width: 100%;
+        
+        border-radius: 10px;
+        position: fixed;
+        top: 15%;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 1%;
+        visibility: hidden;
+        opacity: 1;
+        padding-top: 10px;
+       
+    } */
+    #cliquera {
+        display: none;
+    }
+    #cliquera:checked ~ .sortira {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+    }
+    
+    .sortira {
+        height: 200px;
+        width: 180px;
+        opacity: 1;
+        z-index: 3;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top:100%;
+        right: 0%;
+        visibility: hidden;
+        padding: 20px;
+        
+    }
+    .sortira ul li{
+       
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(0, 0, 0);
     }
     body {
         background-color: black;
@@ -1179,7 +1258,7 @@ li {
     }
 
     .nacv3 {
-        height: 800px;
+        height: 850px;
         width: 100%;
         background: url(./Image/reinion.jpg) 50% no-repeat;
         background-size: cover;
@@ -1187,7 +1266,7 @@ li {
         
     }
     .vsfdt {
-        height: 800px;
+        height: 850px;
         width: 100%;
         backdrop-filter: blur(40px);
         
@@ -1209,7 +1288,36 @@ li {
     .lsgx1 {
         height: 70%;
         width: 100%;
-        background-color: aquamarine;
+        background-color: rgb(247, 54, 54);
+    }
+    .xtsz1 {
+        height: 50%;
+        width: 100%;
+        background: url(./Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .zdczs {
+        height: 80%;
+        width: 80%;
+        overflow: hidden;
+    }
+    .xtsz2 {
+        height: 50%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .locscd {
+        height: 80%;
+        width: 80%;
+        background-color: white;
+        overflow: hidden;
     }
     .lsgx2 {
         height: 30%;

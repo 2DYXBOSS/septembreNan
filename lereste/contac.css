@@ -111,48 +111,841 @@ li {
         font-size: 1rem;
     }
     .contse {
-        height: 250px;
-        width: 100%;
-        background: url(/Image/echkba.jpg) 50% no-repeat;
-        background-size: cover;
-        filter: blur(1px);
-    }
-    .contse12 {
-        height: 250px;
-        width: 80%;
-        background: url(/Image/fina.jpg) 50% no-repeat;
-        background-size: cover;
-    }
-    .contse13 {
-        height: 250px;
-        width: 70%;
-        
-        display: flex;
-        gap: 5%;
-        transform: translateY(-50px);
-    }
-    .contse1 {
         height: 500px;
         width: 100%;
-        background-color: rgb(41, 116, 39);
+        background: url(../Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
         display: flex;
         align-items: center;
+        justify-content: center;
+        
+    }
+    .insde {
+        height: 500px;
+        width: 70%;
+        padding-left: 20px;
+        padding-top: 120px;
+       
+    }
+    .stat {
+        height: 100px;
+        width: 100%;
+        
+        margin-top: 35px;
+        display: flex;
+        gap: 20px;
+       
+    }
+    .qhys1 {
+        height: 100px;
+        width: 100px;
+        
+       
+       
+    }
+    .qhys2 {
+        height: 100px;
+        width: 100px;
+       
+       
+    }
+    .qhys3 {
+        height: 100px;
+        width: 100px;
+        
+  
+       
+    }
+    .qhys4 {
+        height: 100px;
+        width: 100px;
+       
+ 
+       
+    }
+    .zedjyd {
+        height: 3000px;
+        background-color: green;
+        width: 100%;
+    }
+    .jusdk1 {
+        height: 700px;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gsdaje1 {
+        height: 400px;
+        background: url(../Image/ers.jpg) ;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje2 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje3 {
+        height: 400px;
+        background: url(../Image/za2.jpg) 50% ;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje4 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje5 {
+        height: 400px;
+        background: url(../Image/ers.jpg) 50% no-repeat;
+        background-size: cover;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje6 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje7 {
+        height: 400px;
+        background: url(../Image/echkba.jpg);
+        
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje8 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+
+    #fooetr {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+    .premi1 {
+        height: 100%;
+        width:50%;
+        background-color: brown;
+        
+    }
+    .lsch1 {
+        height: 30%;
+        width:100%;
+        background-color: black;
+    }
+    .lsch2 {
+        height: 10%;
+        width:100%;
+        background-color: black;
+        display: flex;
+        gap: 10px;
+        padding-left: 40px;
+        align-items: center;
+    }
+    .lsch3 {
+        height: 60%;
+        width:100%;
+        background-color: black;
+        padding-left: 40px;
         padding-top: 20px;
+        padding-right: 20px;
+    }
+    .premi2 {
+        height: 100%;
+        width:50%;
+        background-color: black;
+        display: flex;
+        gap: 4%;
+        padding-left: 100px;
+        
+    }
+    .premi2 h2{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        padding-top: 20px;
+        
+    }
+    .premi2 p{
+        font-size: 0.7rem;
+        
+    }
+    .lodhe1 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+        
+    }
+    .lodhe2 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+    }
+    .lodhe3 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+    }
+    .ronfsd1 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    
+    .fouteur,.njgjecd,.vakcd,.vakcd1 {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    #cliquera {
+        display: none;
+    }
+    #cliquera:checked ~ .sortira {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+    }
+    
+    .sortira {
+        height: 200px;
+        width: 180px;
+        opacity: 1;
+        z-index: 3;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top:100%;
+        right: 0%;
+        visibility: hidden;
+        padding: 20px;
+        
+    }
+    .sortira ul li{
+       
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    /* .vakcd1 {
+        height: 70px;
+        width: 100%;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        display: flex;
+    }
+    .sjwk1 {
+        height: 70px;
+        width: 50%;
+        
+    }
+    .sjwk2 {
+        height: 70px;
+        width: 50%;
+       
+    } */
+    .vakcd1 {
+        height: 70px;
+        width: 100%;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        display: flex;
+    }
+    .sjwk1 {
+        height: 70px;
+        width: 50%;
+        
+    }
+    .sjwk2 {
+        height: 70px;
+        width: 50%;
+       
+    }
+    .vakcd {
+        height: 300px;
+        width: 100%;
+        background: url(../Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .njgjecd {
+        height: 900px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
-    .vrshz1 {
-        height: 100%;
-        width: 30%;
-        background-color: rgb(238, 255, 0);
+    .keude1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        background: url(../Image/gxjh.jpg) 50%;
+        transform: translateY(70px);
+        border: 20px solid white;
     }
-    .vrshz2 {
-        height: 100%;
-        width: 30%;
-        background-color: rgb(255, 0, 242);
+    .keude4 {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        background: url(../Image/echkba.jpg);
+        transform: translateY(70px);
+        border: 20px solid white;
     }
-    .vrshz3 {
-        height: 100%;
-        width: 30%;
-        background-color: rgb(59, 94, 48);
+    .keude5 {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        background: url(../Image/reinion.jpg) 50%;
+        transform: translateY(70px);
+        border: 20px solid white;
     }
+    .keude6 {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        background: url(../Image/za2.jpg);
+        transform: translateY(70px);
+        border: 20px solid white;
+    }
+    .keude2 {
+        height: 550px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: black;
+        padding-top: 90px;
+        padding-left: 30px;
+        padding-right: 30px;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    .qyuds {
+        height: 420px;
+        width: 100%;
+        background-color: black;
+        
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    body {
+        background-color: black;
+        width: 100%;
+        /* height: 2000px; */
+    }
+    .nvbar {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: none;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo {
+        height: 100px;
+        width: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1-1 {
+        height: 80%;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo1 {
+        height: 100px;
+        width: 700px;
+        background-color: black;
+        display: flex;
+    }
+    .lila {
+        
+        width: 500px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .lila nav ul{
+        display: flex;
+        height: 100%;
+    }
+    .lila nav ul a{
+        padding: 10px 20px;
+        background-color: black;
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila nav ul a:hover{
+        padding: 10px 20px;
+        text-decoration: overline rgb(30, 148, 0);
+
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila1 {
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lila1 a{
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .los {
+        height: 60%;
+        width: 80%;
+        background-color: rgb(30, 148, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .contse {
+        height: 500px;
+        width: 100%;
+        background: url(../Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        
+    }
+    .insde {
+        height: 500px;
+        width: 70%;
+        padding-left: 20px;
+        padding-top: 120px;
+       
+    }
+    .stat {
+        height: 100px;
+        width: 100%;
+        
+        margin-top: 35px;
+        display: flex;
+        gap: 20px;
+       
+    }
+    .qhys1 {
+        height: 100px;
+        width: 100px;
+        
+       
+       
+    }
+    .qhys2 {
+        height: 100px;
+        width: 100px;
+       
+       
+    }
+    .qhys3 {
+        height: 100px;
+        width: 100px;
+        
+  
+       
+    }
+    .qhys4 {
+        height: 100px;
+        width: 100px;
+       
+ 
+       
+    }
+    .zedjyd {
+        height: 3000px;
+        background-color: aquamarine;
+        width: 100%;
+        display: none;
+    }
+    .jusdk1 {
+        height: 700px;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gsdaje1 {
+        height: 400px;
+        background: url(../Image/ers.jpg) ;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje2 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje3 {
+        height: 400px;
+        background: url(../Image/za2.jpg) 50% ;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje4 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje5 {
+        height: 400px;
+        background: url(../Image/ers.jpg) 50% no-repeat;
+        background-size: cover;
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje6 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+    .gsdaje7 {
+        height: 400px;
+        background: url(../Image/echkba.jpg);
+        
+        width: 400px;
+        border-radius: 100%;
+        transform: translateX(50px);
+        border: 20px solid white;
+    }
+    .gsdaje8 {
+        height: 500px;
+        background-color: rgba(83, 83, 83, 0.918);
+        width: 500px;
+        border-radius: 20px;
+        padding: 50px;
+        padding-left: 70px;
+    }
+
+    #fooetr {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        display: none;
+    }
+    .premi1 {
+        height: 100%;
+        width:50%;
+        background-color: brown;
+        
+    }
+    .lsch1 {
+        height: 30%;
+        width:100%;
+        background-color: black;
+    }
+    .lsch2 {
+        height: 10%;
+        width:100%;
+        background-color: black;
+        display: flex;
+        gap: 10px;
+        padding-left: 40px;
+        align-items: center;
+    }
+    .lsch3 {
+        height: 60%;
+        width:100%;
+        background-color: black;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .premi2 {
+        height: 100%;
+        width:50%;
+        background-color: black;
+        display: flex;
+        gap: 4%;
+        padding-left: 100px;
+        
+    }
+    .premi2 h2{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        padding-top: 20px;
+        
+    }
+    .premi2 p{
+        font-size: 0.7rem;
+        
+    }
+    .lodhe1 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+        
+    }
+    .lodhe2 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+    }
+    .lodhe3 {
+        height: 80%;
+        width: 25%;
+        background-color: black;
+        padding-top: 50px;
+    }
+    .ronfsd1 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .fouteur {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+    }
+    .hdehe {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: end;
+        padding-left: 40px;
+        gap: 10px;
+    }
+    .osqxd1 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd2 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd3 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd4 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd5 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .hdehe1 {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    }
+    .hdehe2 {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    }
+    /* .fouteur {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+    }
+    .hdehe {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: end;
+        padding-left: 40px;
+        gap: 10px;
+    }
+    .osqxd1 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd2 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd3 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd4 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd5 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .hdehe1 {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    }
+    .hdehe2 {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    } */
 }
