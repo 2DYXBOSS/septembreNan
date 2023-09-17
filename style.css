@@ -16,7 +16,8 @@ li {
 }
 
 @media (min-width:1200px) {
-    .nacv,.nacv1,.nacv2,.nacv3,.jhyuea {
+
+    .nacv,.nacv1,.nacv2,.nacv3,.jhyuea,.nacv4,.fouteur {
         display: none;
     }
     .aead {
@@ -111,17 +112,173 @@ li {
         
     }
     #about {
-        height: 600px;
+        height: 1350px;
         width: 100%;
-        background-color: rgb(60, 170, 32);
+        background-color: white;
+        margin-top: 100px;
+        color: white;
+    }
+    .mscj {
+        height: 100px;
+        width: 100%;
+        background-color: white;
+    }
+    .mscj1 {
+        height: 250px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background-color: white;
+    }
+    .mscj12 {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        background-color: white;
+    }
+    .yz1 {
+        height: 200px;
+        width: 200px;
+        background-color: #000000;
+    }
+    .yz2 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(201, 201, 201);    
+    }
+    .yz3 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(201, 201, 201);    
+    }
+    .yz4 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(201, 201, 201);   
+    }
+    .yz5 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(201, 201, 201);     
+    }
+    
+    .texmpq1 {
+        height: 500px;
+        width: 100%;
+        background: url(./Image/fgki.jpg) 50% no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lopsfd {
+        height: 100%;
+        width: 60%;
+        
+        padding-top: 100px;
+    }
+    .sufxd {
+        height: 100px;
+        width: 100%;
+        
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;
+    }
+    .numer1 {
+        height: 100px;
+        width: 20%;
+     
+    }
+    .numer2 {
+        height: 100px;
+        width: 20%;
+       
+    }
+    .numer3 {
+        height: 100px;
+        width: 20%;
+      
+    }
+    .numer4 {
+        height: 100px;
+        width: 20%;
+       
+    }
+    #app {
+        height: 700px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding-top: 60px;
+        gap: 3%;
+    }
+    .trapf1 {
+        height: 100%;
+        background-color: white;
+        width: 50%;
+        padding-left: 200px;
+        padding-right: 70px;
+        color: black;
+        
+    }
+    .trapf1 h3{
+        padding-top: 20px;
+        color: black;
+    }
+    .trapf1 p{
+        color: rgb(88, 88, 88);
+    }
+    .loxsde {
+        margin-top: 40px;
+        height: 40px;
+        width: 100px;
+        background-color: green;
+        border-radius: 10px;
+    }
+    .trapf2 {
+        height: 70%;
+       
+        background-color: white;
+        background-size: cover;
+        width: 45%;
+        border-radius: 40px;
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+       
+    }
+    .osgx {
+        height: 70%;
+       
+        background: url(./Image/echkba.jpg) 50% no-repeat;
+        background-size: cover;
+        width: 40%;
+        border-radius: 40px;
+       
+    }
+    
+    .trapf3 {
+        height: 70%;
+       
+        background: url(./Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
+        width: 40%;
+        border-radius: 40px;
     }
     body {
-        background-color: black;
+        background-color: white;
         width: 100%;
+        height: auto;
         /* height: 2000px; */
     }
     .nvbar {
-        height: 100px;
+        height: 80px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -130,7 +287,7 @@ li {
         z-index: 1;
     }
     .logo {
-        height: 100px;
+        height: 80px;
         width: 300px;
         background-color: black;
         display: flex;
@@ -147,10 +304,11 @@ li {
         
     }
     .logo1 {
-        height: 100px;
+        height: 80px;
         width: 700px;
         background-color: black;
         display: flex;
+        
     }
     .lila {
         
@@ -195,6 +353,39 @@ li {
         align-items: center;
         justify-content: center;
     }
+    #ches:checked ~ .qr {
+        visibility: visible;
+        opacity: 1;
+        
+        
+    }
+    #ches {
+        display: none;
+    }
+    .qr {
+        height: 500px;
+        width: 100%;
+        
+        border-radius: 10px;
+        position: fixed;
+        top: 15%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 1%;
+        visibility: hidden;
+        opacity: 1;
+        padding-top: 10px;
+       
+    }
+    .indoy {
+        width: 800px;
+        height: 500px;
+        background-color: rgb(114, 114, 114);
+        box-shadow: 2px 2px 10px 0.5px rgb(38, 66, 38);
+
+    }
     .los {
         height: 60%;
         width: 80%;
@@ -213,11 +404,21 @@ li {
         display: flex;
     }
     .traif {
-        height: 500px;
+        height: 800px;
         width: 50%;
         display: flex;
         align-items: start;
-        justify-content: end;
+        justify-content: start;
+        background: url(./Image/rykhbn.jpg) 50% no-repeat;
+        background-size: cover;
+        z-index: 3;
+        transform: translateY(-100px);
+        
+    }
+    .jahda {
+        height: 100px;
+        width: 300px;
+        
         
     }
     .traif1 {
@@ -225,25 +426,19 @@ li {
         height: 600px;
         width: 50%;
         /* background-color: black; */
-        padding: 20px;
+        padding: 50px;
         padding-top: 100px;
+        /* background-color: blue; */
     }
     .traif1 h1{
         color: white;
     }
-    .jahda {
-        height: 470px;
-        width: 500px;
-        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-        background: url(./Image/istockphoto-91107037-612x612.jpg);
-        transform: rotate(45deg);
-        background-size: 800px;
-        background-position: -140px 10px;
-    }
+    
     .cfgd {
         height: 60px;
         width: 90%;
         /* background-color: black; */
+
         display: flex;
         margin-top: 20px;
     }
@@ -253,8 +448,10 @@ li {
         background-color: green;
         border-radius: 0% 100% 100% 100%;
         margin-top: 150px;
-        
-        
+        position: fixed;
+        right: 5%;
+        bottom: 2%;
+        z-index: 3;
     }
     .cfgd1 {
         height: 200px;
@@ -268,6 +465,11 @@ li {
     .plsd {
         padding-right: 10px;
         padding-top: 150px;
+        position: fixed;
+        right: 10%;
+        bottom: 4%;
+        z-index: 3;
+        
     }
     
     .zeaee {
@@ -309,6 +511,7 @@ li {
         color: black;
         
     }
+  
     .notreService1 {
         height: 300px;
         width: 100%;
@@ -324,18 +527,21 @@ li {
         width: 400px;
         background: url(./Image/insta.jpg) 50% no-repeat;
         background-size: cover;
+        border-radius: 20px;
     }
     .notreService2-1 {
         height: 250px;
         width: 400px;
         background: url(./Image/af.jpg) 50% no-repeat;
         background-size: cover;
+        border-radius: 20px;
     }
     .notreService3-1 {
         height: 250px;
         width: 400px;
-        background: url(./Image/trab.jpg) 50% no-repeat;
+        background: url(./Image/transac.jpg) 50% no-repeat;
         background-size: cover;
+        border-radius: 20px;
     }
     .notreService1-2 {
         height: 250px;
@@ -371,70 +577,112 @@ li {
         background-size: cover;
     }
     #fooetr {
-        height: 700px;
+        height: 1000px;
         width: 100%;
         background-color: black;
-        padding-top: 100px;
+        display: flex;
     }
-    .forett {
-        height: 200px;
-        width: 70%;
+    .premi1 {
+        height: 100%;
+        width:50%;
+        background-color: brown;
+        
+    }
+    .lsch1 {
+        height: 30%;
+        width:100%;
+        background-color: black;
+    }
+    .lsch2 {
+        height: 10%;
+        width:100%;
         background-color: black;
         display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
-        border-bottom: 2px solid white;
+        gap: 10px;
+        padding-left: 40px;
+        align-items: center;
     }
-    .forett1 {
-        height: 100px;
-        width: 70%;
+    .lsch3 {
+        height: 60%;
+        width:100%;
+        background-color: black;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .premi2 {
+        height: 100%;
+        width:50%;
         background-color: black;
         display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
+        gap: 4%;
+        padding-left: 100px;
         
     }
-    .forett3 {
-        background: url(./Image/map.jpg) 50% no-repeat;
-        background-size: cover;
-        height: 300px;
-        width: 70%;
-        display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
-        margin-bottom: 20px;
+    .premi2 h2{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        padding-top: 20px;
         
     }
-    .for1 {
-        height: 150px;
+    .premi2 p{
+        font-size: 0.7rem;
+        
+    }
+    .lodhe1 {
+        height: 80%;
         width: 25%;
         background-color: black;
-        color: white;
+        padding-top: 50px;
         
     }
-    .for1 h1{
-        
-        color: white;
-        
-    }
-    .for2 {
-        height: 150px;
+    .lodhe2 {
+        height: 80%;
         width: 25%;
         background-color: black;
+        padding-top: 50px;
     }
-    .for3 {
-        height: 150px;
+    .lodhe3 {
+        height: 80%;
         width: 25%;
         background-color: black;
+        padding-top: 50px;
     }
-    .for4 {
-        height: 150px;
-        width: 25%;
-        background-color: black;
+    .ronfsd1 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
     }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    
+    
+    
+    
 }
 
 
@@ -444,7 +692,16 @@ li {
 
 
 @media (max-width:1200px) {
+    #fooetr {
+        display: none;
+    }
     #about {
+        display: none;
+    }
+    #app {
+        display: none;
+    }
+    #Collaboration {
         display: none;
     }
     body {
@@ -570,7 +827,7 @@ li {
         height: 470px;
         width: 500px;
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-        background: url(./Image/istockphoto-91107037-612x612.jpg);
+        background: url(./Image/rykhbn.jpg);
         transform: rotate(45deg);
         background-size: 800px;
         background-position: -140px 10px;
@@ -706,45 +963,7 @@ li {
         background: url(./Image/fina.jpg) 50% no-repeat;
         background-size: cover;
     }
-    #fooetr {
-        height: 700px;
-        width: 100%;
-        background-color: black;
-        padding-top: 100px;
-        display: none;
-    }
-    .forett {
-        height: 200px;
-        width: 70%;
-        background-color: black;
-        display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
-        border-bottom: 2px solid white;
-    }
-    .forett1 {
-        height: 100px;
-        width: 70%;
-        background-color: black;
-        display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
-        
-    }
-    .forett3 {
-        background: url(./Image/map.jpg) 50% no-repeat;
-        background-size: cover;
-        height: 300px;
-        width: 70%;
-        display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        
-    }
+    
     .nacv {
         height: 50px;
         width: 100%;
@@ -760,7 +979,7 @@ li {
     .nacv1 {
         height: 300px;
         width: 100%;
-        background: url(./Image/istockphoto-91107037-612x612-2.jpg) 50% no-repeat;
+        background: url(./Image/rykhbn.jpg) 50% no-repeat;
         background-size: cover;
         color: black;
         padding-top: 50px;
@@ -769,7 +988,8 @@ li {
         height: 100%;
         width: 100%;
         padding-top: 40px;
-        backdrop-filter: blur(50px);
+        padding-left: 20px;
+        padding-right: 30px;
         color: rgb(255, 255, 255);
     }
     .nacv1 h3{
@@ -833,7 +1053,7 @@ li {
     .qilq3 {
         height: 200px;
         width: 70%;
-        background: url(./Image/trab.jpg) 50% no-repeat;
+        background: url(./Image/transac.jpg) 50% no-repeat;
         background-size: cover;
     }
     .qilq33 {
@@ -932,18 +1152,160 @@ li {
     } */
 
 
-    .vqsycoca {
-        height: 150px;
+    
+
+    #fooetr {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        
+    }
+
+    .premi2 {
+        height: 100%;
+        width:100%;
+        background-color: black;
+        display: flex;
+        gap: 4%;
+        padding-left: 100px;
+        
+    }
+    
+    .premi1 {
+        height: 100%;
+        width:100%;
+        background-color: brown;
+        
+    }
+
+    .nacv3 {
+        height: 800px;
+        width: 100%;
+        background: url(./Image/reinion.jpg) 50% no-repeat;
+        background-size: cover;
+
+        
+    }
+    .vsfdt {
+        height: 800px;
+        width: 100%;
+        backdrop-filter: blur(40px);
+        
+        padding: 30px;
+        
+    }
+    
+    .nacv3 h3 {
+        font-size: 0.8rem;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        
+    }
+    .nacv4 {
+        height: 1000px;
+        width: 100%;
+        background-color: white;
+    }
+    .lsgx1 {
+        height: 70%;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .lsgx2 {
+        height: 30%;
+        width: 100%;
+        background-color: white;
+    }
+    .bsjyd {
+        height: 120px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 20px;
+
+    }
+    .jswiq1 {
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+    }
+    .jswiq2 {
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+    }
+    .jswiq3 {
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+    }
+    .jswiq4 {
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+    }
+    .fouteur {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+    }
+    .hdehe {
+        height: 100px;
         width: 100%;
         background-color: black;
         display: flex;
-        padding-top: 20px;
+        align-items: end;
+        padding-left: 40px;
+        gap: 10px;
     }
-    .vqsycoca1 {
-        height: 100px;
-        width: 80%;
+    .osqxd1 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd2 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd3 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd4 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .osqxd5 {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .hdehe1 {
+        height: 300px;
+        width: 100%;
         background-color: black;
-        border-top: 2px solid white;
-        margin-left: 10%;
+      
+        padding: 40px;
+    
+        
+    }
+    .hdehe2 {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
     }
 }
