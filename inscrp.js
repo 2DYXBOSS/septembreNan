@@ -61,9 +61,11 @@ data.forEach((user) => {
 
 // RECUPERER LE NOM DE L'UTILISATEUR CONNECTER
 let affi = document.querySelector("span.nomez");
+let ads = document.querySelector("h1.nomusee");
 data.forEach((user) => {
     a = `<h1>${user.nameid}<h1>`
     affi.innerHTML += a
+    ads.innerHTML += a
 
 });
 
