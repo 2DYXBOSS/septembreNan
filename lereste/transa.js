@@ -8,3 +8,14 @@ data.forEach((user) => {
     ads.innerHTML += a
 
 });
+
+
+let affi = document.querySelector("h1.ikjk");
+
+data.forEach((user) => {
+    b = `<h1>${user.nameid}<h1>`
+    
+    affi.innerHTML += b
+
+
+});

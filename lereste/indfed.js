@@ -7,24 +7,25 @@ boutonid.addEventListener("click",(event)=>{
     let nameid = document.querySelector(".nameid").value;
     let passewordid = document.querySelector(".passwordid").value;
     let emailid = document.querySelector(".emailid").value;
-    
+    // tabUser.forEach((utilisateur) => {
+    //     if(document.querySelector(".emailid").value === utilisateur.emailid )
+    //     window.location.replace("../index.html")
+        
+    //     alert(utilisateur)
+    //     // console.log(result)
+       
+    // });
     let user = {
         nameid : nameid,
         emailid : emailid,
         passewordid :passewordid,
 
-    }
+    } 
+
+    // if( document.querySelector(".emailid").value === emailid )
     tabUser.push(user)
     localStorage.setItem('inscripte',JSON.stringify(tabUser))
-    verif = JSON.parse(localStorage.getItem("inscripte"))
-    verif.forEach((utilisateur) => {
-        if(document.querySelector(".emailid").value === utilisateur.emailid ){
-            window.location.reload()
-        }
-        
-        // console.log(result)
-       
-    });
+    
     window.location.replace("../lereste/conev.html")
 
     
