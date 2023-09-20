@@ -8,9 +8,9 @@
   body {
       width: 100%;
       overflow: hidden;
-      background-color: white;
+      background-color: green;
   }
-  @media (min-width:10px) and (max-width:3000px){
+@media (min-width:250px){
       
     a {
         text-decoration: none;
@@ -20,14 +20,14 @@
     header {
         width: 100%;
         height: 2000px;
-        background-color: white;
+        background-color: green;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .dex2 {
         width: 100%;
-        background-color: white;
+        background-color: green;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -38,29 +38,24 @@
 
     }
     .mp {
-        height: 450px;
-        width: 340px;
-        background-color: black;
+           
+        height:650px;
+        width: 90%;
+        background-color: white;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
-    .hea {
-        height: 7%;
-        width: 25%;
-        background: url(../image/BLA.jpg) 50% no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: 100px;
-        filter: invert();
-    }
+    
     .hea2 {
-        height: 50px;
+        height: 120px;
         width: 100%;
-        background-color: black;
+        /* background-color: rgb(17, 173, 140); */
         color: white;
         display: flex;
         align-items: center;
@@ -74,37 +69,39 @@
     }
     .hea3 {
         margin-top: 20px;
-        height: 10px;
+        height: 12px;
         width: 100%;
         display: flex;
         justify-content: end;
         align-items: center;
-        background-color: black;
+        background-color: white;
     }
 
     .hea3 p {
-        margin-bottom: 15px;
+        margin-bottom: 1px;
         font-size: 0.8rem;
-        color: white;
+        color: #008000;
         font-weight: bold;
-        padding-right: 20px;
+        padding-right: 40px;
     }
     .hea4 {
         height: 30px;
         width: 100%;
-        background-color: black;
+        background-color: white;
         display: flex;
         justify-content: end;
-        padding-right: 20px;
+        padding-right: 30px;
         
     }
     .hea4 input {
         border-radius: 10px;
         border: 1px solid white;
-        background-color: rgba(49, 48, 48, 0.199);
+        background-color: transparent;
         width: 90%;
         color: white;
         padding-left: 10px;
+        border-bottom: 2px solid green;
+       
     }
     .hea5 {
         margin-top: 20px;
@@ -113,7 +110,7 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        background-color: black;
+        background-color: white;
         color: white;
     }
     .hea5 p {
@@ -133,7 +130,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        background-color: black;
+        background-color: white;
         color: white;
     }
     .hea6 h1 {
@@ -147,7 +144,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: white;
         color: white;
     }
     .hea7 li {
@@ -155,192 +152,27 @@
         list-style-type: none;
         
     }
-    .hea7 li a{
-        padding: 10px;
-        background-color: transparent;
-        border: 2px solid white;
-        border-radius: 20px;
-        
-    }
-    .hea7 li a:hover{
-        padding: 10px;
-        background-color: rgba(102, 100, 100, 0.075);
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 20px;
+    .hea7 p{
+       
         color: white;
-        font-weight: bolder;
-        font-size: 1rem;
+    }
+    button#boutonid{
+        border: none;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        border: 2px solid green;
+        color: green;
+    }
+    
+    button#boutonid:hover{
+        border: none;
+        background-color: #008000;
+        padding: 20px;
+        border-radius: 5px;
         
     }
     
 }
   
-  @media (min-width:3000px) {
-      
-      
-      
-    a {
-        text-decoration: none;
-        color: white;
-    }
-      
-    header {
-        width: 100%;
-        height: 4000px;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .dex2 {
-        width: 100%;
-        background-color: white;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 10px;
-
-    }
-    .mp {
-        height: 800px;
-        width: 550px;
-        background-color: black;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 20px;
-    }
-    .hea {
-        height: 15%;
-        width: 40%;
-        background: url(../image/BLA.jpg) 50% no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: 200px;
-        filter: invert();
-    }
-    .hea2 {
-        height: 100px;
-        width: 100%;
-        background-color: black;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-    .hea2 p{
-        color: white;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    .hea3 {
-        margin-top: 20px;
-        height: 40px;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        background-color: rgb(0, 0, 0);
-    }
-
-    .hea3 p {
-        margin-bottom: 15px;
-        font-size: 0.8rem;
-        color: white;
-        font-weight: bold;
-        padding-right: 35px;
-    }
-    .hea4 {
-        height: 30px;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        justify-content: end;
-        padding-right: 20px;
-        
-    }
-    .hea4 input {
-        border-radius: 40px;
-        border: 1px solid white;
-        background-color: rgba(49, 48, 48, 0.199);
-        width: 90%;
-        height: 40px;
-        color: white;
-        padding-left: 10px;
-    }
-    .hea5 {
-        margin-top: 20px;
-        height: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        background-color: black;
-        color: white;
-    }
-    .hea5 p {
-        font-size: 1rem;
-        padding-right: 40px;
-        margin-top: 20px;
-    }
-    .hea5 p:hover{
-        font-size: 0.7rem;
-        padding-right: 20px;
-        color: blue;
-        
-    }
-    .hea6{
-        margin-top: 20px;
-        height: 200px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        background-color: black;
-        color: white;
-    }
-    .hea6 h1 {
-        font-size: 1.5rem;
-        padding-bottom: 30px;
-    }
-
-    .hea7{
-        height: 50px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        color: white;
-    }
-    .hea7 li {
-        font-size: 1.2rem;
-        list-style-type: none;
-        
-    }
-    .hea7 li a{
-        padding: 20px;
-        background-color: transparent;
-        border: 2px solid white;
-        border-radius: 60px;
-        
-    }
-    .hea7 li a:hover{
-        padding: 10px;
-        background-color: rgba(102, 100, 100, 0.075);
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-        
-    }
-      
-  }
   

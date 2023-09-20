@@ -1,12 +1,14 @@
 
 // INSCRIPTION PC
-let boutonid = document.querySelector(".boutonid");
+let boutonid = document.querySelector("#boutonid");
 boutonid.addEventListener("click",(event)=>{
     event.preventDefault()
-    let tabUser = JSON.parse(localStorage.getItem("inscripte")) || []
-    let nameid = document.querySelector(".nameid").value;
-    let passewordid = document.querySelector(".passwordid").value;
-    let emailid = document.querySelector(".emailid").value;
+    let tabUser = JSON.parse(localStorage.getItem("vraiIcription")) || []
+    let nameid = document.querySelector("#nameid").value;
+    let passewordid = document.querySelector("#passwordid").value;
+    let emailid = document.querySelector("#emailid").value;
+    let confpassword = document.querySelector("#confpassword").value;
+    let odjectifif = document.querySelector("#odjectifif").value;
     // tabUser.forEach((utilisateur) => {
     //     if(document.querySelector(".emailid").value === utilisateur.emailid )
     //     window.location.replace("../index.html")
@@ -19,6 +21,8 @@ boutonid.addEventListener("click",(event)=>{
         nameid : nameid,
         emailid : emailid,
         passewordid :passewordid,
+        odjectifif : odjectifif,
+        confpassword :confpassword,
 
     } 
 

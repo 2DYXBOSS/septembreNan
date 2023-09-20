@@ -1393,34 +1393,49 @@ li {
         gap: 10px;
     }
     .osqxd1 {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .osqxd2 {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .osqxd3 {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .osqxd4 {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .osqxd5 {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .hdehe1 {
         height: 300px;

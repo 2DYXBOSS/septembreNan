@@ -69,3 +69,19 @@ data.forEach((user) => {
 
 // });
 
+
+
+const clique = document.querySelector('.lodhe')
+const sote = document.querySelector('.sortira')
+const c = document.querySelector('body')
+
+
+
+c.addEventListener('click', ()=> {
+    sote.classList.remove('active');
+})
+clique.addEventListener('click', ()=> {
+    sote.classList.add('active');
+})
+
+
