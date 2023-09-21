@@ -1,19 +1,19 @@
 
 // CONNEXION
-let butonco = document.querySelector(".boutonide")
+let butonco = document.querySelector(".boutonid")
 const conner = document.querySelector("form")
 conner.addEventListener("submit",(e)=>{
     e.preventDefault();
-    let tabeUser = JSON.parse(localStorage.getItem("inscripte"));
+    let tabeUser = JSON.parse(localStorage.getItem("inscription"));
     let result ;
     tabeUser.forEach((utilisateur) => {
-        if(document.querySelector(".emailide").value === utilisateur.emailid && document.querySelector(".passwordide").value === utilisateur.passewordid )
+        if(document.querySelector(".emailid").value === utilisateur.emailid && document.querySelector(".passwordid").value === utilisateur.passewordid )
         result = utilisateur
         // console.log(result)
     });
 
     if (typeof result !== "undefined"){
-        actu = localStorage.setItem("connect",JSON.stringify([result]))
+        localStorage.setItem("instant",JSON.stringify([result]))
         window.location.replace("../index.html");
     }
     else {
@@ -21,8 +21,34 @@ conner.addEventListener("submit",(e)=>{
     }
 
     tabeUser.push(utilisateur)
-    localStorage.setItem("inscripte",JSON.stringify(tabeUser))
+    localStorage.setItem("inscription",JSON.stringify(tabeUser))
     
 
 })
+
+// let butoncoe = document.querySelector(".boutonide")
+// const connere = document.querySelector("form")
+// connere.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//     let tabeUsere = JSON.parse(localStorage.getItem("inscription"));
+//     let resulte ;
+//     tabeUsere.forEach((utilisateure) => {
+//         if(document.querySelector("#emailide").value === utilisateure.emailid && document.querySelector("#passwordide").value === utilisateure.passewordid )
+//         resulte = utilisateure
+//         // console.log(result)
+//     });
+
+//     if (typeof resulte !== "undefined"){
+//         localStorage.setItem("instante",JSON.stringify([resulte]))
+//         window.location.replace("../index.html");
+//     }
+//     else {
+//         window.location.reload()
+//     }
+
+//     tabeUsere.push(utilisateure)
+//     localStorage.setItem("inscription",JSON.stringify(tabeUsere))
+    
+
+// })
 
