@@ -1,19 +1,19 @@
 
 // CONNEXION
-let butonco = document.querySelector(".boutonid")
+let butonco = document.querySelector("#boutonid")
 const conner = document.querySelector("form")
 conner.addEventListener("submit",(e)=>{
     e.preventDefault();
-    let tabeUser = JSON.parse(localStorage.getItem("inscription"));
+    let tabeUser = JSON.parse(localStorage.getItem("inscriptionsurpc"));
     let result ;
     tabeUser.forEach((utilisateur) => {
-        if(document.querySelector(".emailid").value === utilisateur.emailid && document.querySelector(".passwordid").value === utilisateur.passewordid )
+        if(document.querySelector("#emailid").value === utilisateur.emailid && document.querySelector("#passwordid").value === utilisateur.passewordid )
         result = utilisateur
         // console.log(result)
     });
 
     if (typeof result !== "undefined"){
-        localStorage.setItem("instant",JSON.stringify([result]))
+        localStorage.setItem("conectermow",JSON.stringify([result]))
         window.location.replace("../index.html");
     }
     else {
@@ -21,7 +21,7 @@ conner.addEventListener("submit",(e)=>{
     }
 
     tabeUser.push(utilisateur)
-    localStorage.setItem("inscription",JSON.stringify(tabeUser))
+    localStorage.setItem("inscriptionsurpc",JSON.stringify(tabeUser))
     
 
 })

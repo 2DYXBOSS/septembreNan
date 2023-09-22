@@ -430,6 +430,11 @@ li {
         padding: 50px;
         padding-top: 100px;
         /* background-color: blue; */
+        position: sticky;
+        top: 500px;
+        right:100px;
+        color: red;
+        margin: auto;
     }
     .traif1 h1{
         color: white;

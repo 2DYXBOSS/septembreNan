@@ -3,7 +3,7 @@
 let boutonid = document.querySelector(".boutonid");
 boutonid.addEventListener("click",(event)=>{
     event.preventDefault()
-    let tabUser = JSON.parse(localStorage.getItem("inscription")) || []
+    let tabUser = JSON.parse(localStorage.getItem("inscriptionsurtel")) || []
     let nameid = document.querySelector(".nameid").value;
     let passewordid = document.querySelector(".passwordid").value;
     let emailid = document.querySelector(".emailid").value;
@@ -28,7 +28,44 @@ boutonid.addEventListener("click",(event)=>{
 
     // if( document.querySelector(".emailid").value === emailid )
     tabUser.push(user)
-    localStorage.setItem('inscription',JSON.stringify(tabUser))
+    localStorage.setItem('inscriptionsurtel',JSON.stringify(tabUser))
+    
+    window.location.replace("../lereste/conev.html")
+
+    
+    
+})  ;
+
+
+let boutonide = document.querySelector("#boutonid");
+boutonide.addEventListener("click",(event)=>{
+    event.preventDefault()
+    let tabUser = JSON.parse(localStorage.getItem("inscriptionsurpc")) || []
+    let nameid = document.querySelector("#nameid").value;
+    let passewordid = document.querySelector("#passwordid").value;
+    let emailid = document.querySelector("#emailid").value;
+    let confpassword = document.querySelector("#confpassword").value;
+    let odjectifif = document.querySelector("#odjectifif").value;
+    // tabUser.forEach((utilisateur) => {
+    //     if(document.querySelector(".emailid").value === utilisateur.emailid )
+    //     window.location.replace("../index.html")
+        
+    //     alert(utilisateur)
+    //     // console.log(result)
+       
+    // });
+    let user = {
+        nameid : nameid,
+        emailid : emailid,
+        passewordid :passewordid,
+        odjectifif : odjectifif,
+        confpassword :confpassword,
+
+    } 
+
+    // if( document.querySelector(".emailid").value === emailid )
+    tabUser.push(user)
+    localStorage.setItem('inscriptionsurpc',JSON.stringify(tabUser))
     
     window.location.replace("../lereste/conev.html")
 
