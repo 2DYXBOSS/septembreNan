@@ -430,11 +430,7 @@ li {
         padding: 50px;
         padding-top: 100px;
         /* background-color: blue; */
-        position: sticky;
-        top: 500px;
-        right:100px;
-        color: red;
-        margin: auto;
+       
     }
     .traif1 h1{
         color: white;
@@ -1112,7 +1108,7 @@ li {
         justify-content: center;
     }
     .nacv2 {
-        height: 1300px;
+        height: 1800px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1123,7 +1119,7 @@ li {
     }
 
     .qilq {
-        height: 200px;
+        height: 300px;
         width: 70%;
         background: url(./Image/insta.jpg) 50% no-repeat;
         background-size: cover;
@@ -1133,11 +1129,11 @@ li {
         height: 170px;
         width: 70%;
         background-color:white;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         
     }
     .qilq2 {
-        height: 200px;
+        height: 300px;
         width: 70%;
         background: url(./Image/af.jpg) 50% no-repeat;
         background-size: cover;
@@ -1155,10 +1151,10 @@ li {
         height: 170px;
         width: 70%;
         background-color: white;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
     .qilq3 {
-        height: 200px;
+        height: 300px;
         width: 70%;
         background: url(./Image/transac.jpg) 50% no-repeat;
         background-size: cover;
@@ -1310,12 +1306,12 @@ li {
         
     }
     .nacv4 {
-        height: 1000px;
+        height: 1200px;
         width: 100%;
         background-color: white;
     }
     .lsgx1 {
-        height: 70%;
+        height: 75%;
         width: 100%;
         background-color: rgb(247, 54, 54);
     }
@@ -1349,7 +1345,7 @@ li {
         overflow: hidden;
     }
     .lsgx2 {
-        height: 30%;
+        height: 25%;
         width: 100%;
         background-color: white;
     }
