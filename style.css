@@ -1077,8 +1077,12 @@ li {
         width: 100%;
         /* background: url(./Image/rykhbn.jpg) 50% no-repeat;
         background-size: cover; */
-        background-color: green;
+        background-color: rgb(95, 153, 95);
         color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         padding-top: 50px;
         overflow: hidden;
     }
@@ -1089,6 +1093,11 @@ li {
         padding-left: 20px;
         padding-right: 30px;
         color: rgb(255, 255, 255);
+        background-color: green;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
     }
     .nacv1 h3{
         color: rgb(255, 255, 255);
@@ -1103,9 +1112,7 @@ li {
         background-color: white;
         border-radius: 10px;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       
     }
     .nacv2 {
         height: 1800px;
@@ -1119,25 +1126,27 @@ li {
     }
 
     .qilq {
-        height: 300px;
-        width: 70%;
+        border-radius: 10px;
+        height: 250px;
+        width: 80%;
         background: url(./Image/insta.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+      
     }
     .qilq1 {
-        height: 170px;
-        width: 70%;
+        height: 300px;
+        width: 80%;
         background-color:white;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         
     }
     .qilq2 {
-        height: 300px;
-        width: 70%;
+        
         background: url(./Image/af.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 10px;
+        height: 250px;
+        width: 80%;
     }
     .errze {
         height: 40px;
@@ -1148,22 +1157,24 @@ li {
        
     }
     .qilq22 {
-        height: 170px;
-        width: 70%;
-        background-color: white;
-        margin-bottom: 100px;
+        height: 300px;
+        width: 80%;
+        background-color:white;
+        margin-bottom: 20px;
     }
     .qilq3 {
-        height: 300px;
-        width: 70%;
+        border-radius: 10px;
+        height: 250px;
+        width: 80%;
         background: url(./Image/transac.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        
     }
     .qilq33 {
-        height: 170px;
-        width: 70%;
-        background-color: white;
+        height: 300px;
+        width: 80%;
+        background-color:white;
+        margin-bottom: 20px;
     }
     .cardc {
         height: 400px;
@@ -1229,7 +1240,7 @@ li {
 
     }
 
-
+    
 
 
 
@@ -1455,5 +1466,10 @@ li {
         padding: 40px;
     
         
+    }
+    .jhyuea {
+        background-color: aqua;
+        width: 100%;
+        height: 40%;
     }
 }
