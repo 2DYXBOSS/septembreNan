@@ -529,21 +529,21 @@ li {
         width: 400px;
         background: url(./Image/insta.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .notreService2-1 {
         height: 250px;
         width: 400px;
         background: url(./Image/af.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .notreService3-1 {
         height: 250px;
         width: 400px;
         background: url(./Image/transac.jpg) 50% no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .notreService1-2 {
         height: 250px;
@@ -579,7 +579,7 @@ li {
         background-size: cover;
     }
     #fooetr {
-        height: 1000px;
+        height: 700px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -591,7 +591,7 @@ li {
         
     }
     .lsch1 {
-        height: 30%;
+        height: 40%;
         width:100%;
         background-color: black;
     }
@@ -605,7 +605,7 @@ li {
         align-items: center;
     }
     .lsch3 {
-        height: 60%;
+        height: 50%;
         width:100%;
         background-color: black;
         padding-left: 40px;
@@ -655,18 +655,27 @@ li {
         width:40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .ronfsd2 {
         height: 40px;
         width:40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .ronfsd3 {
         height: 40px;
         width:40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .ronfsd4 {
@@ -674,12 +683,18 @@ li {
         width:40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .ronfsd5 {
         height: 40px;
         width:40px;
         background-color: white;
         border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     
@@ -1327,7 +1342,7 @@ li {
         background-color: rgb(247, 54, 54);
     }
     .xtsz1 {
-        height: 50%;
+        height: 20%;
         width: 100%;
         background: url(./Image/reinion.jpg) 50% no-repeat;
         background-size: cover;
@@ -1342,18 +1357,19 @@ li {
         overflow: hidden;
     }
     .xtsz2 {
-        height: 50%;
+        height: 80%;
         width: 100%;
         background-color: white;
         display: flex;
-        align-items: center;
+       
         justify-content: center;
     }
     .locscd {
-        height: 80%;
+        height: 90%;
         width: 80%;
         background-color: white;
         overflow: hidden;
+        padding-top: 20px;
     }
     .lsgx2 {
         height: 25%;
