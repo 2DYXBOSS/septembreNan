@@ -17,6 +17,16 @@
 //     localStorage.setItem("formulnan",JSON.stringify(tabUser))
 // })  
 
+const nav = document.querySelector('.lodhe')
+const nav1 = document.querySelector('.sortira')
+const nav12 = document.querySelector('.sortira')
+
+nav12.addEventListener('click', ()=> {
+    nav1.classList.remove('active');
+})
+nav.addEventListener('click', ()=> {
+    nav1.classList.add('active');
+})
 
 
 // COLLABORATION
@@ -114,5 +124,4 @@ data.forEach(eus => {
 // clique.addEventListener('click', ()=> {
 //     sote.classList.add('active');
 // })
-
 

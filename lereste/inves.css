@@ -49,7 +49,7 @@ li {
 @media (max-width:1000px) {
     
     
-    footer {
+    footer,.nvbar {
         display: none;
     }
     .kswuyh {
@@ -158,36 +158,157 @@ li {
 
 
 @media (min-width:1000px) {
+    .vakcd1,.sjwk1,.sjwk2,.sortira,#cliquera {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    li {
+        list-style-type: none;
+    }
+    .nvbar {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo {
+        height: 80px;
+        width: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1-1 {
+        height: 80%;
+        width: 70%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo1 {
+        height: 80px;
+        width: 700px;
+        background-color: black;
+        display: flex;
+        
+    }
+    .lila {
+        
+        width: 500px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .lila nav ul{
+        display: flex;
+        height: 100%;
+    }
+    .lila nav ul a{
+        padding: 10px 20px;
+        background-color: black;
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila nav ul a:hover{
+        padding: 10px 20px;
+        text-decoration: overline rgb(30, 148, 0);
+
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila1 {
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lila1 a{
+        width: 200px;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ches:checked ~ .qr {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+    }
+    #ches {
+        display: none;
+    }
+    .qr {
+        height: 500px;
+        width: 100%;
+        
+        border-radius: 10px;
+        position: fixed;
+        top: 15%;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 1%;
+        visibility: hidden;
+        opacity: 1;
+        padding-top: 10px;
+       
+    }
+    .indoy {
+        width: 800px;
+        height: 500px;
+        background-color: rgb(114, 114, 114);
+        box-shadow: 2px 2px 10px 0.5px rgb(38, 66, 38);
+
+    }
+    .los {
+        height: 60%;
+        width: 80%;
+        background-color: rgb(30, 148, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .kzie {
+       width: 100%;
+       background-color: green;
+       height: 1000px;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .kswuyh {
         padding-top: 100px;
         height: 800px;
         background-color: white;
-        width: 100%;
+        width: 70%;
         text-align: center;
+        margin: 0 auto;
     }
-    .vakcd1 {
-        height: 70px;
-        width: 100%;
-        background-color: green;
-        position: fixed;
-        top: 0;
-        z-index: 3;
-        display: flex;
-    }
-    .sjwk1 {
-        height: 70px;
-        width: 50%;
-        
-    }
-    .sjwk2 {
-        height: 70px;
-        width: 50%;
-       
-    }
+    
     body {
         background-color: black;
         width: 100%;
-        height: 2000px;
+        height: 1500px;
     }
 
     .fouteur {
@@ -196,65 +317,9 @@ li {
         background-color: black;
         display: none;
     }
-    .hdehe {
-        height: 100px;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        align-items: end;
-        padding-left: 40px;
-        gap: 10px;
-    }
-    .osqxd1 {
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .osqxd2 {
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .osqxd3 {
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .osqxd4 {
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .osqxd5 {
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .hdehe1 {
-        height: 300px;
-        width: 100%;
-        background-color: black;
-      
-        padding: 40px;
     
-        
-    }
-    .hdehe2 {
-        height: 400px;
-        width: 100%;
-        background-color: black;
-      
-        padding: 40px;
-    
-        
-    }
     #fooetr {
-        height: 1000px;
+        height: 700px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -262,13 +327,14 @@ li {
     .premi1 {
         height: 100%;
         width:50%;
-        background-color: brown;
+        background-color: black;
         
     }
     .lsch1 {
-        height: 30%;
+        height: 40%;
         width:100%;
         background-color: black;
+        padding-left: 40px;
     }
     .lsch2 {
         height: 10%;
@@ -276,22 +342,73 @@ li {
         background-color: black;
         display: flex;
         gap: 10px;
-        padding-left: 40px;
+        padding-left: 80px;
         align-items: center;
     }
     .lsch3 {
-        height: 60%;
+        height: 50%;
         width:100%;
         background-color: black;
-        padding-left: 40px;
+        padding-left: 80px;
         padding-top: 20px;
         padding-right: 20px;
+        
     }
+    
+    
+    .ronfsd1 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .premi2 {
-        height: 100%;
+        height: 103%;
         width:50%;
         background-color: black;
-        display: flex;
+        
+
         gap: 4%;
         padding-left: 100px;
         
@@ -306,55 +423,35 @@ li {
         font-size: 0.7rem;
         
     }
-    .lodhe1 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
-        
+    .sjudzs1 {
+        height: 200px;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 20px;
+      
     }
-    .lodhe2 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
+    .sjudzs1 input{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        background-color: rgba(56, 56, 56, 0.459);
+        border: none;
     }
-    .lodhe3 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
+    .sjudzs2 {
+        height: 50px;
+        width: 80%;
+        margin-top: 40px;
+  
+        padding-top: 20px;
+       
     }
-    .ronfsd1 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd2 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd3 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    
-    .ronfsd4 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd5 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
+    .sjudzs2 button{
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+       
     }
     
 }

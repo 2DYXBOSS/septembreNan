@@ -244,7 +244,7 @@ li {
     }
 
     #fooetr {
-        height: 1000px;
+        height: 700px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -252,13 +252,14 @@ li {
     .premi1 {
         height: 100%;
         width:50%;
-        background-color: brown;
+        background-color: black;
         
     }
     .lsch1 {
-        height: 30%;
+        height: 40%;
         width:100%;
         background-color: black;
+        padding-left: 40px;
     }
     .lsch2 {
         height: 10%;
@@ -266,22 +267,73 @@ li {
         background-color: black;
         display: flex;
         gap: 10px;
-        padding-left: 40px;
+        padding-left: 80px;
         align-items: center;
     }
     .lsch3 {
-        height: 60%;
+        height: 50%;
         width:100%;
         background-color: black;
-        padding-left: 40px;
+        padding-left: 80px;
         padding-top: 20px;
         padding-right: 20px;
+        
     }
+    
+    
+    .ronfsd1 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .premi2 {
-        height: 100%;
+        height: 103%;
         width:50%;
         background-color: black;
-        display: flex;
+        
+
         gap: 4%;
         padding-left: 100px;
         
@@ -296,55 +348,35 @@ li {
         font-size: 0.7rem;
         
     }
-    .lodhe1 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
-        
+    .sjudzs1 {
+        height: 200px;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 20px;
+      
     }
-    .lodhe2 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
+    .sjudzs1 input{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        background-color: rgba(56, 56, 56, 0.459);
+        border: none;
     }
-    .lodhe3 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
+    .sjudzs2 {
+        height: 50px;
+        width: 80%;
+        margin-top: 40px;
+  
+        padding-top: 20px;
+       
     }
-    .ronfsd1 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd2 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd3 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    
-    .ronfsd4 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    .ronfsd5 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
+    .sjudzs2 button{
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+       
     }
     
     .fouteur,.njgjecd,.vakcd,.vakcd1 {
@@ -441,12 +473,15 @@ li {
         background-size: cover;
     }
     .njgjecd {
-        height: 900px;
+        height: 920px;
         width: 100%;
         background-color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    .njgjecd p,h1,h2,h5{
+        color: black;
     }
     .keude1 {
         height: 300px;
@@ -483,8 +518,8 @@ li {
     .keude2 {
         height: 550px;
         width: 100%;
-        border-radius: 20px;
-        background-color: black;
+   
+        background-color: white;
         padding-top: 90px;
         padding-left: 30px;
         padding-right: 30px;
@@ -494,7 +529,7 @@ li {
     .qyuds {
         height: 420px;
         width: 100%;
-        background-color: black;
+        background-color: white;
         
         overflow: hidden;
         padding-bottom: 20px;

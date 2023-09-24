@@ -587,13 +587,14 @@ li {
     .premi1 {
         height: 100%;
         width:50%;
-        background-color: brown;
+        background-color: black;
         
     }
     .lsch1 {
         height: 40%;
         width:100%;
         background-color: black;
+        padding-left: 40px;
     }
     .lsch2 {
         height: 10%;
@@ -601,55 +602,20 @@ li {
         background-color: black;
         display: flex;
         gap: 10px;
-        padding-left: 40px;
+        padding-left: 80px;
         align-items: center;
     }
     .lsch3 {
         height: 50%;
         width:100%;
         background-color: black;
-        padding-left: 40px;
+        padding-left: 80px;
         padding-top: 20px;
         padding-right: 20px;
-    }
-    .premi2 {
-        height: 100%;
-        width:50%;
-        background-color: black;
-        display: flex;
-        gap: 4%;
-        padding-left: 100px;
         
     }
-    .premi2 h2{
-        font-size: 1.2rem;
-        padding-bottom: 5px;
-        padding-top: 20px;
-        
-    }
-    .premi2 p{
-        font-size: 0.7rem;
-        
-    }
-    .lodhe1 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
-        
-    }
-    .lodhe2 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
-    }
-    .lodhe3 {
-        height: 80%;
-        width: 25%;
-        background-color: black;
-        padding-top: 50px;
-    }
+    
+    
     .ronfsd1 {
         height: 40px;
         width:40px;
@@ -696,7 +662,57 @@ li {
         align-items: center;
         justify-content: center;
     }
-    
+
+    .premi2 {
+        height: 100%;
+        width:50%;
+        background-color: black;
+        
+
+        gap: 4%;
+        padding-left: 100px;
+        
+    }
+    .premi2 h2{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        padding-top: 20px;
+        
+    }
+    .premi2 p{
+        font-size: 0.7rem;
+        
+    }
+    .sjudzs1 {
+        height: 200px;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 20px;
+      
+    }
+    .sjudzs1 input{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        background-color: rgba(56, 56, 56, 0.459);
+        border: none;
+    }
+    .sjudzs2 {
+        height: 50px;
+        width: 80%;
+        margin-top: 40px;
+  
+        padding-top: 20px;
+       
+    }
+    .sjudzs2 button{
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+       
+    }
     
     
     
@@ -768,7 +784,7 @@ li {
         padding-top: 10px;
        
     } */
-    #cliquera {
+    /* #cliquera {
         display: none;
     }
     #cliquera:checked ~ .sortira {
@@ -776,10 +792,10 @@ li {
         opacity: 1;
         z-index: 5;
         position: fixed;
-        /* animation: sorfd 10s ease; */
+        /* animation: sorfd 10s ease; 
         
-    }
-    @keyframes sorfd {
+    } 
+     @keyframes sorfd {
         0% {
             transform: translateX(300px);
             
@@ -789,7 +805,7 @@ li {
             
         }
     }
-    
+     */
     .sortira {
         height: 500px;
         width: 300px;
@@ -800,6 +816,20 @@ li {
         top:100%;
         right: 0%;
         visibility: hidden;
+        padding: 20px;
+        /* animation: sorfd 2s ease;
+        transform: translateX(0px); */
+    }
+    .sortira.active {
+        height: 500px;
+        width: 300px;
+        opacity: 1;
+        z-index: 3;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top:100%;
+        right: 0%;
+        visibility: visible;
         padding: 20px;
         /* animation: sorfd 2s ease;
         transform: translateX(0px); */
