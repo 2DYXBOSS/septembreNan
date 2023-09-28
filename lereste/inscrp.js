@@ -17,39 +17,94 @@
 //     localStorage.setItem("formulnan",JSON.stringify(tabUser))
 // })  
 
-const nav = document.querySelector('.lodhe')
-const nav1 = document.querySelector('.sortira')
-const nav12 = document.querySelector('.sortira')
-
-nav12.addEventListener('click', ()=> {
-    nav1.classList.remove('active');
-})
-nav.addEventListener('click', ()=> {
-    nav1.classList.add('active');
-})
 
 
 // COLLABORATION
-let boutonid = document.querySelector(".boutonid");
+
+let boutonid = document.querySelector("#boutonid");
 boutonid.addEventListener("click",(event)=>{
     event.preventDefault()
-    let tabUser = JSON.parse(localStorage.getItem("collab")) || []
-    let nameid = document.querySelector(".nameid").value;
-    let prenomid = document.querySelector(".prenomid").value;
-    let passewordid = document.querySelector(".passwordid").value;
-    let emailid = document.querySelector(".emailid").value;
-    let objetifid = document.querySelector(".objetifid").value;
+    let tabUsere = JSON.parse(localStorage.getItem("collabepo")) || []
+    let nameid = document.querySelector("#nameid").value;
+    let prenomid = document.querySelector("#prenomid").value;
+    let passewordid = document.querySelector("#passewordid").value;
+    let emailid = document.querySelector("#emailid").value;
+    let objetifid = document.querySelector("#objetifid").value;
     
-    let user = {
+    let usere = {
         nameid : nameid,
         prenomid :prenomid,
         emailid : emailid,
         passewordid :passewordid,
         objetifid :objetifid,
     }
-    tabUser.push(user)
-    localStorage.setItem('collab',JSON.stringify(tabUser))
+    
+    tabUsere.push(usere)
+    localStorage.setItem('collabepo',JSON.stringify(tabUsere))
+    window.location.replace("../lereste/pos.html")
 })  
+
+
+
+
+
+
+
+
+let boutonide = document.querySelector("#boutonide");
+boutonide.addEventListener("click",(event)=>{
+    event.preventDefault()
+    let tabUser = JSON.parse(localStorage.getItem("collabete")) || []
+    let nameide = document.querySelector("#nameide").value;
+    let prenomide = document.querySelector("#prenomide").value;
+    let passwordide = document.querySelector("#passwordide").value;
+    let emailide = document.querySelector("#emailide").value;
+    let objetifide = document.querySelector("#objetifide").value;
+    
+    let user = {
+        nameide : nameide,
+        prenomide :prenomide,
+        emailide : emailide,
+        passwordide :passwordide,
+        objetifide :objetifide,
+    }
+    tabUser.push(user)
+    localStorage.setItem('collabete',JSON.stringify(tabUser))
+})  
+
+
+// let boutonide = document.querySelector("#boutonide");
+// boutonid.addEventListener("click",(event)=>{
+//     event.preventDefault()
+//     let tabUser = JSON.parse(localStorage.getItem("collabtel")) || []
+//     let nameide = document.querySelector("#nameide").value;
+//     let prenomide = document.querySelector("#prenomide").value;
+//     let passewordide = document.querySelector("#passwordide").value;
+//     let emailide = document.querySelector("#emailide").value;
+//     let objetifide = document.querySelector("#objetifide").value;
+    
+//     let user = {
+//         nameide : nameide,
+//         prenomide :prenomide,
+//         emailide : emailide,
+//         passewordide :passewordide,
+//         objetifide :objetifide,
+//     }
+//     tabUser.push(user)
+//     localStorage.setItem('collabtel',JSON.stringify(tabUser))
+// })  
+
+
+// const nav = document.querySelector('.lodhe')
+// const nav1 = document.querySelector('.sortira')
+// const nav12 = document.querySelector('.sortira')
+
+// nav12.addEventListener('click', ()=> {
+//     nav1.classList.remove('active');
+// })
+// nav.addEventListener('click', ()=> {
+//     nav1.classList.add('active');
+// })
 
 
 // let boutonide = document.querySelector("#boutonid");
@@ -94,13 +149,13 @@ boutonid.addEventListener("click",(event)=>{
 
 
 // RECUPERER LE NOM DE L'UTILISATEUR CONNECTER
-let affi = document.querySelector("h1.nomez");
-let data = JSON.parse(localStorage.getItem("instant"));
-data.forEach(eus => {
+// let affi = document.querySelector("h1.nomez");
+// let data = JSON.parse(localStorage.getItem("instant"));
+// data.forEach(eus => {
     
-    affi.innerHTML = eus.nameid
+//     affi.innerHTML = eus.nameid
 
-});
+// });
 
 
 // data.forEach((user) => {

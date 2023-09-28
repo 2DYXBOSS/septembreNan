@@ -8,13 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@200&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+
     <script src="./lereste/inscrp.js" defer></script>
 </head>
 <body>
+   
     <div class="nvbar">
         <div class="logo">
             <div class="logo1-1">
-                <h1 style="color: white; font-size: 2.2rem;">BLAY</h1>
+                <h1 style="color: green; font-size: 2.2rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 3px;"><p   style="color: white;">Cash</p></span></h1>
             </div>
         </div>
         <div class="logo1">
@@ -49,12 +55,15 @@
     <header id="Home">
         <div class="traif">
             <div class="jahda">
-                <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 4rem; color: white; padding-left: 50px; padding-top: 20px;">BLAY</h1>
-        
+                <h1 style="font-family: 'Rowdies', cursive;font-size: 4rem; color: white; padding-left: 50px; padding-top: 10px;">BLAY</h1>
+
+
+                <!-- <p style=" padding-left: 50px; padding-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eligendi itaque odit quasi ab, aspernatur deserunt vitae quaerat quae aperiam, veniam nostrum molestias voluptatem esse velit tempore sapiente nisi est!</p>
+         -->
             </div>
         </div>
         <div class="traif1">
-            <h1 class="nomez"  style="font-size: 0.8rem; padding-bottom: 30px;color: red;" ></h1>
+            <h1 class="nomezm"  style="font-size: 0.8rem; padding-bottom: 30px;color: white;" ></h1>
             <!-- <h1>AVOIR DES PROJET DE VIE</h1>
             <h1 style="font-size: 0.8rem; padding-bottom: 20px;" >C'EST SAVOIR SE CONSTRUIT</h1> -->
             <h1>AVOIR DES PROJET DE VIE</h1>
@@ -149,12 +158,12 @@
                             
                                 <div class="impd1">
                                     <p style="color: green;">Nom</p>
-                                    <input  name="Nom" class="nameid" type="text" >
+                                    <input  name="Nom" id="nameid" type="text" >
                                 </div>
                                 
                                 <div class="impd1">
                                     <p style="color: green;">Prenom</p>
-                                    <input  name="Prenom" class="prenomid" type="text">
+                                    <input  name="Prenom" id="prenomid" type="text">
                                 </div>
                             
                             </div>
@@ -162,23 +171,24 @@
                             
                                 <div class="impd1">
                                     <p style="color: green;">Email</p>
-                                    <input  name="Email" class="emailid" type="email" >
+                                    <input  name="Email" id="emailid" type="email" >
                                 </div>
                                 
                                 <div class="impd1">
                                     <p style="color: green;">Addresse</p>
-                                    <input  name="Password" class="passwordid" type="text" >
+                                    <input  name="Password" id="passewordid" type="text" >
                                 </div>
                             
                             </div>
                             <div class="askqs">
-                                <p style="color: green;">description du projet</p>
-                                <input  name="Nom" class="objetifid" type="text" >
+                                <p style="color: green;">Parlez nous de vous !</p>
+                                <textarea name="" id="objetifid" style="width: 100%;height: 100px;background-color: rgba(85, 85, 85, 0.336);
+                                border: none;"></textarea>
                             </div>
                             <div class="tesqui">
-                                <button class="boutonid" id="kkxs" type="submit">Soumettre</button>
+                                <button id="boutonid"  type="submit">Soumettre</button>
                             </div>
-
+                            <div id="kkxs"></div>
                         </form>
                         
                         <!-- <form action="">
@@ -240,7 +250,7 @@
         <div class="texmpq1">
             
             <div class="lopsfd">
-                <h1 style="padding-bottom: 10px; color: green; font-size: 2rem;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">NOS CARRACTERISTIQUES</h1>
+                <h1 style="padding-bottom: 10px; color: green; font-size: 3rem;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">NOS CARRACTERISTIQUES</h1>
                 <p style="padding-right: 200px; font-size: 1.2rem;">Depuis la mise de notre structure Blay Cash , nous avons pu aider plusieurs personnes dans leurs projets</p>
                 <p style="padding-right: 200px;font-size: 1.2rem;">Nous avons permis aux personnes de trouver des investisseurs et aux investisseursde trouver des projets fiables sur quoi investir.</p>
 
@@ -322,7 +332,8 @@
         
         <div class="premi1">
             <div class="lsch1">
-                <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: bolder;font-size: 5rem;color: white; padding: 40px;">BLAY CASH</h1>
+                <h1 style="color: green; font-size: 5rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;padding: 40px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 12px;"><p   style="color: white;font-size: 1.5rem;">Cash</p></span></h1>
             </div>
             <div class="lsch2">
                 <div class="ronfsd1">
@@ -350,7 +361,8 @@
         <div class="premi2" style="color: white;">
             <div class="sjudzs1">
                 <h1 style="padding-bottom: 10px;color: white;font-size: 1.5rem;">Envoie nous un mail</h1>
-                <input type="text" name="" id="">
+                <textarea name="" id="" style="background-color: rgba(85, 85, 85, 0.336);
+                border: none;width: 80%;height: 180px;"></textarea>
                 
             </div>
             <div class="sjudzs2">
@@ -362,35 +374,37 @@
 
     <!-- telephone -->
 
+    
     <div class="vakcd1">
         <div class="sjwk1">
-            <h1 style="font-size: 1.8rem;padding-left: 20px;padding-top: 15px;color: white;">BLAY</h1>
+            <h1 style="font-size: 1.8rem;padding-left: 20px;padding-top: 15px;color: white;font-family: 'Rowdies', cursive;">BLAY <span style="font-size: 0.7rem;">Cash</span></h1>
+            
         </div>
         <div style="display: flex;justify-content: end;align-items: center;padding-right: 20px;filter: invert();" class="sjwk2">
-           <!-- <input type="checkbox" sty name="" id="cliquerai"> -->
-            <!-- <label for="cliquera">
+           <input type="checkbox" sty name="" id="cliquera">
+            <label for="cliquera" class="lodhe">
+                <img  src="../Image/me.png" height="45%" alt="">
                 
-           </label> -->
-            <div class="lodhe">
-                <img  src="./Image/me.png" height="45%" alt="">
-            </div>
+           </label>
+           
+            
            <div class="sortira">
                 <nav>
                     <ul>
                         <li>
-                            <a href="index.html">#Home</a>
+                            <a href="index.html"><p style="font-family: 'Rowdies', cursive;"># HOME</p></a>
                         </li>
                         <li>
-                            <a href="./lereste/affaire.html">#Profil</a>
+                            <a href="./lereste/affaire.html"><p style="font-family: 'Rowdies', cursive;"># MON PROFIL</p></a>
                         </li>
                         <li>
-                            <a href="#ser">#Nos Servives</a>
+                            <a href="#ser"><p style="font-family: 'Rowdies', cursive;"># NOS SERVICES</p></a>
                         </li>
                         <li>
-                            <a href="#asl">#Collaboration</a>
+                            <a href="#asl"><p style="font-family: 'Rowdies', cursive;"># COLLABORATION</p></a>
                         </li>
                         <li>
-                            <a href="#ser3">#Contactez nous</a>
+                            <a href="#ser3"><p style="font-family: 'Rowdies', cursive;"># CONTACTS</p></a>
                         </li>
                     </ul>
                 </nav>
@@ -402,7 +416,7 @@
             <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 3rem; color: white; padding-top: 40px;padding-bottom: 20px;">FAITES LE BON CHOIX <br> MAINTENANT</h1>
             
             <p  style="padding-top: 10px; font-size: 0.9rem;padding-bottom: 20px;">Savoir a qui s'addresser c'est aussi vouloir avancer, Nous sommes a votre dispositions pour vous accompagner atteindre vos Objectifs ,par la realisations des vos projets de vie . </p>
-            <div style="margin-top: 20px; padding-top: 10px; " class="zucze">
+            <div style="margin-top: 20px; padding-top: 15px; " class="zucze">
                <a href="./lereste/inscription.html"> <p style="color: black;" id="ser">Creer un compte dès maintenant</p></a>
             </div>
         </div>
@@ -458,17 +472,20 @@
             <p>Pour que les investissuers voient vos projets , vous etes priers de remplir tous les champs de se formulaire , merci de nous faire confiances .</p>
             <form style="height: 100%;" action="">
                 <h3>Nom</h3>
-                <input type="text" name="Nom" class="nameid"  style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input type="text" name="Nom" id="nameide"  style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
                 <h3>Prenom</h3>
-                <input type="text" name="Prenom" class="prenomid" style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input type="text" name="Prenom" id="prenomide" style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
                 <h3>Addresse</h3>
-                <input type="text" name="Password" class="passwordid" style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input type="text" name="Password" id="passwordide" style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
                 <h3>E-mail</h3>
-                <input type="text" name="Password" class="emailid"  style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
-                <h3>Description du projet</h3>
-                <input type="text" name="Nom" class="objetifid" style="width: 100%;height: 15%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;"><br>
-                <button class="boutonid" id="ser3" type="submit" style="border: none;background-color: green;padding: 10px 15px; border-radius: 5px;margin-top: 20px;">Soumettre</button>
+                <input type="text" name="Password" id="emailide"  style="width: 100%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <h3>Description de vous !</h3>
+                <input type="text" name="Nom" id="objetifide" style="width: 100%;height: 15%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;"><br>
+                <button id="boutonide"  type="submit" style="border: none;background-color: green;padding: 10px 15px; border-radius: 5px;margin-top: 20px;">Soumettre</button>
             </form>
+            <div id="ser3">
+
+            </div>
         </div>
     </div>
     <div class="nacv4">
@@ -522,32 +539,33 @@
         </div>
     </div>
     <div class="fouteur">
-        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: bolder;font-size: 4rem;color: white; padding: 40px;background-color: black;">BLAY CASH</h1>
+        <h1 style="color: green; font-size: 5rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;padding: 40px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 12px;"><p   style="color: white;font-size: 1.5rem;">Cash</p></span></h1>
         <div class="hdehe">
             <div class="osqxd1" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="./Image/ho.png" height="25px" alt="">
+                <a href="../index.html"><img src="../Image/ho.png" height="25px" alt=""></a>
             </div>
             <div class="osqxd2" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="./Image/twee.png" height="25px" alt="">
+                <img src="../Image/twee.png" height="25px" alt="">
             </div>
             <div class="osqxd3" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="./Image/facebpok.png" height="25px" alt="">
+                <img src="../Image/facebpok.png" height="25px" alt="">
             </div>
             <div class="osqxd4" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="./Image/insta.png" height="25px" alt="">
+                <img src="../Image/insta.png" height="25px" alt="">
             </div>
             <div class="osqxd5" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="./Image/GooNan.png" height="25px" alt="">
+                <img src="../Image/GooNan.png" height="25px" alt="">
             </div>
         </div>
         <div class="hdehe1" style="overflow: hidden;">
@@ -555,26 +573,11 @@
             <p style="padding-bottom: 20px;">Nous avons permis aux personnes de trouver des investisseurs et aux investisseursde trouver des projets fiables sur quoi investir.
             </p>
            
-
-
         </div>
         <div class="hdehe2" >
-            <h3>Partenaires</h3>
-            <p>avons permis aux personnes </p>
-            <p>projets fiables</p>
-            <p style="padding-bottom: 20px;">permis aux personnes</p>
-            <h3>Affaire</h3>
-            <p>s'addresser </p>
-            <p>avons permis aux personnes</p>
-            <p style="padding-bottom: 20px;"> aux investisseursde</p>
-            
-            <h3>Investissement</h3>
-            <p>permis aux personnes </p>
-            <p>projets fiables</p>
-            <p style="padding-bottom: 20px;">avons permis aux personnes</p>
-
-             
-            <p style="padding-top: 50px;text-align: center;">Copyright by Ded custom</p>
+            <h2 style="color: white;">Envoyer nous un mail</h2>
+            <textarea name="" id="" style="width: 80%;height: 200px;background-color: rgba(128, 128, 128, 0.37);"></textarea><br>
+            <button type="submit" style="padding: 10px 30px;background-color: green;border: none;color: white;">Envoyer</button>
         </div>
     </div>
 </body>

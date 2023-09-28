@@ -1,12 +1,17 @@
 
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
@@ -15,194 +20,409 @@ a {
 li {
     list-style-type: none;
 }
-
-#cliquera {
-    display: none;
-}
-#cliquera:checked ~ .sortira {
-    visibility: visible;
-    opacity: 1;
-    z-index: 5;
-    position: fixed;
+input {
+    outline: none;
+    border: none;
+    color: #000;
+    background: transparent;
     
 }
-
-.sortira {
-    height: 500px;
-    width: 300px;
-    opacity: 1;
-    z-index: 3;
-    background-color: rgb(0, 0, 0);
-    position: fixed;
-    top:100%;
-    right: 0%;
-    visibility: hidden;
-    padding: 20px;
-    /* animation: sorfd 2s ease;
-    transform: translateX(0px); */
+.infoPreso {
+    margin: 0 auto;
+}
+.gdhz {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
 
-.sortira ul li{
-   
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    border-bottom: 1px solid white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1000px) {
-    .fekx {
-        height: 70px;
-        width: 200px;
+@media (min-width : 1000px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: white;
-        margin: 0 auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    section {
+        width: 100%;
+        overflow: hidden;
+    }
+    #tel {
+        display: none;
+    }
+    /* Ordinateur */
+
+    /* header */
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    li {
+        list-style-type: none;
+    }
+    .nvbar {
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo {
+        height: 80px;
+        width: 15%;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
-        border-radius: 40px;
-        border: 2px solid green;
-        margin-top: 20px;
     }
-    .kzie {
-        height: 15500px;
-        width: 100%;
-        background-color: green;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-top: 150px;
-    }
-    .vjrfyi {
-        height: 15500px;
-        width: 100%;
-        background-color: green;
-        display: none;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-top: 150px;
-    }
-    .photod1 {
-        height: 850px;
-        width: 90%;
+    .sdjyqe {
+        height: 80px;
+        width: 40%;
         background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1-1 {
+        height: 80%;
+        width: 70%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo1 {
+        height: 80px;
+        width: 50%;
+        background-color: white;
+        display: flex;
+        
+    }
+    .lila {
+        
+        width: 62%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .lila nav ul{
+        display: flex;
+        height: 100%;
+    }
+    .lila nav ul a{
+        padding: 10px 20px;
+        background-color: white;
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila nav ul a:hover{
+        padding: 10px 20px;
+        text-decoration: overline black;
+
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+    .lila1 {
+        width: 200px;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lila1 a{
+        width: 200px;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ches:checked ~ .qr {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+    }
+    #ches {
+        display: none;
+    }
+    .qr {
+        height: 500px;
+        width: 100%;
+        
+        border-radius: 10px;
+        position: fixed;
+        top: 15%;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 1%;
+        visibility: hidden;
+        opacity: 1;
+        padding-top: 10px;
+       
+    }
+    .indoy {
+        width: 800px;
+        height: 500px;
+        background-color: rgb(114, 114, 114);
+        box-shadow: 2px 2px 10px 0.5px rgb(38, 66, 38);
+
+    }
+    .los {
+        height: 60%;
+        width: 80%;
+        background-color: rgb(30, 148, 0);
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 2%;
-        position: sticky;
-        top: -500px;
+        font-size: 1rem;
     }
-    .fhgj1 {
-        height: 100%;
-        width: 90%;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-    }
-    .hsxhd1 {
-        height: 50%;
+
+
+    /* footer */
+
+    #fooetr {
+        height: 700px;
         width: 100%;
-        background-color: white;
+        background-color: black;
         display: flex;
     }
-    .lsdhe1 {
+    .premi1 {
         height: 100%;
-        width: 30%;
-        /* background: url(../Image/dfgh.jpg) 50% no-repeat;
-        background-size: cover; */
-      
-    }
-    .lompshss1 {
-        height: 70%;
-        width: 100%;
-        background-color: #ffffff;
-        display: flex;
-        align-items: end;
-        justify-content: start;
+        width:50%;
+        background-color: black;
         
     }
-    .lqgxyz {
-        background: url(../Image/dfgh.jpg) 50% no-repeat;
-        background-size: cover;
-        height: 90%;
-        width: 90%;
-        border-radius: 20px;
-        border: 2px solid green;
+    .lsch1 {
+        height: 40%;
+        width:100%;
+        background-color: black;
+        padding-left: 40px;
     }
-    .lompshss2 {
-        height: 30%;
-        width: 100%;
+    .lsch2 {
+        height: 10%;
+        width:100%;
+        background-color: black;
         display: flex;
-        justify-content: start;
         gap: 10px;
-        padding-top: 20px;
-        background-color: white;
-        
+        padding-left: 80px;
+        align-items: center;
     }
-    .lsdhe2 {
-        height: 100%;
-        width: 70%;
-        background-color: white;
-        
+    .lsch3 {
+        height: 50%;
+        width:100%;
+        background-color: black;
+        padding-left: 80px;
+        padding-top: 20px;
+        padding-right: 20px;
         
     }
     
-    .jndad1 {
+    
+    .ronfsd1 {
         height: 40px;
-        width: 40px;
-        background-color: green;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .jndad2 {
-        height: 40px;
-        width: 40px;
-        background-color: green;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .jndad3 {
-        height: 40px;
-        width: 40px;
-        background-color: green;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .hsxhd2 {
-        height: 50%;
-        width: 100%;
+        width:40px;
         background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd2 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd3 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ronfsd4 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ronfsd5 {
+        height: 40px;
+        width:40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .premi2 {
+        height: 103%;
+        width:50%;
+        background-color: black;
+        
+
+        gap: 4%;
+        padding-left: 100px;
+        
+    }
+    .premi2 h2{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
         padding-top: 20px;
+        
+    }
+    .premi2 p{
+        font-size: 0.7rem;
+        
+    }
+    .sjudzs1 {
+        height: 200px;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 20px;
       
     }
-    .kswuyh {
-        padding-top: 100px;
-        height: 800px;
-        background-color: white;
+    .sjudzs1 input{
+        height: 100%;
         width: 100%;
-        text-align: center;
+        text-align: left;
+        background-color: rgba(56, 56, 56, 0.459);
+        border: none;
+    }
+    .sjudzs2 {
+        height: 50px;
+        width: 80%;
+        margin-top: 40px;
+  
+        padding-top: 20px;
+       
+    }
+    .sjudzs2 button{
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+       
+    }
+    
+    .jqsc {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .jyaz {
+        height: 500px;
+        width: 30%;
+        background-color: white;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        padding: 50px 50px;
+
+    }
+    .zedjzloz {
+        height: 300px;
+        width: 300px;
+        background: url(../Image/posysd.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz2 {
+        height: 100%;
+        width: 70%;
+        background-color: rgba(177, 177, 177, 0.295);
+        display: flex;
+        flex-direction: column;
+        
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz2 h1{
+        font-size: 3rem;
+    }
+    .aetyatuz {
+        height: 100px;
+        width: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz12 {
+        height: 85%;
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .vakcd1,.fouteur {
+        display: none;
+    }
+    
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1000px) {
+    .nvbar,footer {
+        display: none;
     }
     .vakcd1 {
         height: 70px;
@@ -221,125 +441,233 @@ li {
     .sjwk2 {
         height: 70px;
         width: 50%;
+    
+    }
+
+
+    #cliquera {
+        display: none;
+    }
+    #cliquera:checked ~ .sortira {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+        position: fixed;
+        
+        
+    }
+    
+
+    .sortira {
+        height: 500px;
+        width: 300px;
+        opacity: 1;
+        z-index: 3;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top:100%;
+        right: 0%;
+        visibility: hidden;
+        padding: 20px;
+        
+    }
+
+    .sortira ul li{
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .fouteur {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        overflow-X: hidden;
+    }
+    .fouteur p,h3{
+        color: white;
+    }
+    .hdehe {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: end;
+        padding-left: 40px;
+        gap: 10px;
+    }
+    .osqxd1 {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osqxd2 {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osqxd3 {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osqxd4 {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osqxd5 {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hdehe1 {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    }
+    .hdehe2 {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+      
+        padding: 40px;
+    
+        
+    }
+    .jhyuea {
+        background-color: aqua;
+        width: 100%;
+        height: 40%;
+    }
+    .conteza {
+       
+        width: 100%;
+        background-color: white;
+    }
+    .im {
+        height: 300px;
+        width: 50%;
+        background-color: rgb(214, 23, 23);
+        margin: 0 auto;
+        border-radius: 50px;
+        background: url(../Image/echkba.jpg) 50% no-repeat;
+        background-size: cover;
+        box-shadow: 1px 1px 10px 1px gray;
        
     }
-    body {
-        background-color: black;
-        width: 100%;
-        height: 1500px;
-    }
-
-    
-}
-
-
-
-
-
-@media (max-width:1000px) {
-    .fekx {
-        height: 70px;
-        width: 200px;
-        background-color: white;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        border-radius: 40px;
-        border: 2px solid green;
-        margin-top: 20px;
-    }
-    .kzie {
-        height: 1500px;
-        width: 100%;
-        background-color: green;
-        display: none;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-top: 150px;
-    }
-    .vjrfyi {
-        height: 1500px;
-        width: 100%;
-        background-color: green;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-top: 150px;
-    }
-    .photod1 {
-        height: 1200px;
+    .im1 {
+        height: 300px;
         width: 90%;
         background-color: white;
+        margin: 0 auto;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2%;
-        /* position: sticky;
-        top: 50px; */
-        padding-top: 20px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 10px 1px gray;
+        
     }
-    .fhgj1 {
-        height: 100%;
+    .im2 {
+        height: 300px;
+        width: 90%;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+
+    
+    .jqsc {
         width: 90%;
         background-color: white;
         display: flex;
         flex-direction: column;
-    }
-    
-    
-    body {
-        background-color: black;
-        width: 100%;
-        height: 1500px;
-    }
-    .kisql {
-        height: 50px;
-        width: 100%;
-        background-color: white;
-    }
-    
-    .kisq2 {
-        height: 250px;
-        width: 100%;
-        background-color: white;
-        display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .kisq21 {
-        height: 250px;
-        width: 250px;
-        background: url(../Image/dfgh.jpg) 50% no-repeat;
-        background-size: cover;
-        border-radius: 20px;
-    }
-    .kisq3 {
-        height: 700px;
-        width: 100%;
-        background-color: white;
-        background-size: cover;
-    }
-    .kisq3 p{
-        color: #000;
-    }
-    .kisq4 {
-        height: 80px;
-        width: 55%;
-        background-color: white;
-        background-size: cover;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        border-radius: 30px;
-        border: 2px solid green;
+       
     }
-    
-}
+    .jyaz {
+        height: 500px;
+        width: 70%;
+        background-color: white;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 50px 50px;
+
+    }
+    .zedjzloz {
+        height: 50%;
+        width: 100%;
+        background: url(../Image/posysd.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz2 {
+        height: 100%;
+        width: 80%;
+        background-color: rgba(177, 177, 177, 0.295);
+        display: flex;
+        flex-direction: column;
+        
+        padding: 30px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz2 h1{
+        font-size: 1.5rem;
+    }
+    .aetyatuz {
+        height: 100px;
+        width: 95%;
+        background-color: white;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .jyaz12 {
+        height: 85%;
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+} 
 

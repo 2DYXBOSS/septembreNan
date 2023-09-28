@@ -8,43 +8,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@200&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+
+    <script defer src="../lereste/paye.js"></script>
 </head>
 <body>
     <div class="vakcd1">
         <div class="sjwk1">
-            <h1  style="font-size: 1.8rem;padding-left: 20px;padding-top: 15px;color: white;">BLAY</h1>
+            <h1 style="font-size: 1.8rem;padding-left: 20px;padding-top: 15px;color: white; padding-left: 50px; padding-top: 20px;">BLAY <span style="font-size: 0.7rem;">Cash</span></h1>
         </div>
         <div style="display: flex;justify-content: end;align-items: center;padding-right: 20px;filter: invert();" class="sjwk2">
-           <input type="checkbox" name="" id="cliquera">
-            <label for="cliquera">
-                <div class="lodhe">
-                    <img src="../Image/me.png" height="45%" alt="">
-                </div>
+           <input type="checkbox" sty name="" id="cliquera">
+            <label for="cliquera" class="lodhe">
+                <img  src="../Image/me.png" height="45%" alt="">
+                
            </label>
+           
+            
            <div class="sortira">
                 <nav>
                     <ul>
                         <li>
-                            <a href="../index.html">#Home</a>
+                            <a href="index.html"><p style="font-family: 'Rowdies', cursive;"># HOME</p></a>
                         </li>
                         <li>
-                            <a href="#ser">#Transaction</a>
+                            <a href="./lereste/affaire.html"><p style="font-family: 'Rowdies', cursive;"># MON PROFIL</p></a>
                         </li>
                         <li>
-                            <a href="../lereste/affaire.html">#Profil</a>
+                            <a href="#ser"><p style="font-family: 'Rowdies', cursive;"># NOS SERVICES</p></a>
                         </li>
                         <li>
-                            <a href="#ser3">#Contactez nous</a>
+                            <a href="#asl"><p style="font-family: 'Rowdies', cursive;"># COLLABORATION</p></a>
+                        </li>
+                        <li>
+                            <a href="#ser3"><p style="font-family: 'Rowdies', cursive;"># CONTACTS</p></a>
                         </li>
                     </ul>
                 </nav>
            </div>
         </div>
     </div>
+
     <div class="nvbar">
         <div class="logo">
             <div class="logo1-1">
-                <h1 style="color: white; font-size: 2.2rem;">BLAY</h1>
+                <h1 style="color: green; font-size: 2.2rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 3px;"><p   style="color: white;">Cash</p></span></h1>
             </div>
         </div>
         <div class="logo1">
@@ -69,7 +80,7 @@
             </div>
             <div class="mksix" style="background-color: black; display: flex;align-items: center;width: 20%;">
                 <div style="height: 70% ; width: 100%;" class="los">
-                    <a href="./lereste/affaire.html"><p>Mon Compte</p></a>
+                    <a href="../lereste/affaire.html"><p>Mon Compte</p></a>
                 </div>
                 
             </div>
@@ -77,29 +88,31 @@
     </div>
     <div class="kzie" id="ser">
         <div class="kswuyh">
-            <h1 style="margin-bottom: 70px;color: black; ">TRANSACTION</h1>
+            
+            <h1 style="margin-bottom: 70px;color: green;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">TRANSACTION</h1>
     
             <form style="height: 100%;" action="">
                 <h3 style="color: black; margin-bottom: 10px; ">Numero sur le quel s'effectue la transaction</h3>
-                <input required type="text" name="Nom" class="nameid"  style="margin-bottom: 30px;  width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input required type="text" name="Nom" class="nameid"  style="margin-bottom: 30px;  width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;" id="env">
                 <h3 style="color: black; margin-bottom: 10px; ">Numero qui recoit la transaction</h3>
-                <input required  type="text" name="Prenom" class="prenomid" style=" margin-bottom: 30px; width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input required  type="text" name="Prenom" class="prenomid" style=" margin-bottom: 30px; width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;" id="recoi">
                 <h3 style="color: black; margin-bottom: 10px; ">Montant de la transaction</h3>
-                <input required  type="text" name="Password" class="passwordid" style="margin-bottom: 30px; width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input required  type="text" name="Password" class="passwordid" style="margin-bottom: 30px; width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;" id="monr">
                 <h3 style="color: black; margin-bottom: 10px; ">Mot de passe du compte</h3>
-                <input required  type="text" name="Password" class="emailid"  style="width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;">
+                <input required  type="text" name="Password" class="emailid"  style="width: 70%;height: 6%;border-radius: 3px;background-color: rgba(128, 128, 128, 0.342);border: none;" id="nop">
                 <br>
                 <button class="boutonid" id="ser3" type="submit" style="border: none;background-color: green;padding: 10px 15px; border-radius: 5px;margin-top: 20px;">Soumettre</button>
             </form>
         </div>
     </div>
-   <div class="fouteur">
-        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: bolder;font-size: 5rem;color: white; padding: 40px;background-color: black;">BLAY CASH</h1>
+    <div class="fouteur">
+        <h1 style="color: green; font-size: 5rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;padding: 40px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 12px;"><p   style="color: white;font-size: 1.5rem;">Cash</p></span></h1>
         <div class="hdehe">
             <div class="osqxd1" style="display: flex;
             align-items: center;
             justify-content: center;">
-                <img src="../Image/ho.png" height="25px" alt="">
+                <a href="../index.html"><img src="../Image/ho.png" height="25px" alt=""></a>
             </div>
             <div class="osqxd2" style="display: flex;
             align-items: center;
@@ -123,36 +136,23 @@
             </div>
         </div>
         <div class="hdehe1" style="overflow: hidden;">
-            <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt</p>
-            <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo reprehenderit doloribus tempora magnam velit sapiente quae minima iste nulla quisquam maxime ex autem ad expedita, saepe eaque. Suscipit, fugit esse?</p>
+            <p style="padding-bottom: 20px;">Savoir a qui s'addresser c'est aussi vouloir avancer.</p>
+            <p style="padding-bottom: 20px;">Nous avons permis aux personnes de trouver des investisseurs et aux investisseursde trouver des projets fiables sur quoi investir.
+            </p>
            
-
-
         </div>
         <div class="hdehe2" >
-            <h3>Partenaires</h3>
-            <p>Lorem ipsumconsectetur a </p>
-            <p>psum consectetur adipisicing elit</p>
-            <p style="padding-bottom: 20px;">Lorem iing elit</p>
-            <h3>Activites</h3>
-            <p>a adipisicing eli </p>
-            <p>Lconsecteturt</p>
-            <p style="padding-bottom: 20px;"> csicing elitLorem iing elit</p>
-            
-            <h3>Associations</h3>
-            <p>ipsumconsectetur a </p>
-            <p>adipisicing elit</p>
-            <p style="padding-bottom: 20px;">Lorem iing elit</p>
-
-             
-            <p style="padding-top: 50px;text-align: center;">Copyright by Ded custom</p>
+            <h2 style="color: white;">Envoyer nous un mail</h2>
+            <textarea name="" id="" style="width: 80%;height: 200px;background-color: rgba(128, 128, 128, 0.37);"></textarea><br>
+            <button type="submit" style="padding: 10px 30px;background-color: green;border: none;color: white;">Envoyer</button>
         </div>
     </div>
     <footer id="fooetr">
         
         <div class="premi1">
             <div class="lsch1">
-                <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: bolder;font-size: 5rem;color: white; padding: 40px;">BLAY CASH</h1>
+                <h1 style="color: green; font-size: 5rem;font-family: 'Rowdies', cursive;display: flex;align-items: flex-end;gap: 10px;padding: 40px;
+                ">BLAY <span style="color: green; font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-bottom: 12px;"><p   style="color: white;font-size: 1.5rem;">Cash</p></span></h1>
             </div>
             <div class="lsch2">
                 <div class="ronfsd1">

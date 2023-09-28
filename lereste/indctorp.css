@@ -6,13 +6,17 @@
     
   }
   input {
-    color: black;
-  }
-  body {
-      width: 100%;
-      overflow: hidden;
-      background-color: green;
-  }
+    outline: none;
+    border: none;
+    color: #000;
+    background: transparent;
+    
+}
+body {
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+}
 @media (max-width:1000px){
       
     a {

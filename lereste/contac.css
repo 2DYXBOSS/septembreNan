@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     color: white;
     scroll-behavior: smooth;
+    
 }
 
 a {
@@ -16,12 +17,19 @@ li {
 }
 
 
+input {
+    outline: none;
+    border: none;
+    color: #000;
+    background: transparent;
+    
+}
 
 @media (min-width:1200px) {
     
 
     body {
-        background-color: black;
+        background-color: white;
         width: 100%;
         /* height: 2000px; */
     }
@@ -164,84 +172,89 @@ li {
        
     }
     .zedjyd {
-        height: 3000px;
-        background-color: green;
-        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        width: 85%;
+        overflow: hidden;
+        padding-right: 2px;
     }
-    .jusdk1 {
+    .dskdzq1 {
+        height: 500px;
+        width: 100%;
+        background: url(../Image/istockphoto-623211066-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .dskdzq2 {
+        height: 40%;
+        width: 100%;
+        background-color: white;
+        padding-top: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+    }
+    .kdhcep {
+       
+        width: 100%;
+        background-color: white;
+        display: flex;
+        gap: 4%;
+        padding: 100px;
+    }
+    .kljdd1 {
+        height: 100%;
+        width:49%;
+        background-color: white;
+    }
+    .kljdd2 {
+        height: 100%;
+        width:49%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .kdhce1 {
+        width: 100%;
+        height: 1000px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        
+    }
+    
+    .hshsq1 {
+        width: 80%;
+        height: 750px;
+        background-color: green;
+        display: flex;
+        
+    }
+    .guefuef1 {
+        width: 30%;
+        height: 700px;
+        background: url(../Image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        
+        
+    }
+    .guefuef2 {
+        width: 70%;
         height: 700px;
         background-color: white;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 20px;
+        padding-right: 100px;
+        color: black;
     }
-    .gsdaje1 {
-        height: 400px;
-        background: url(../Image/ers.jpg) ;
-        width: 400px;
-        border-radius: 100%;
-        transform: translateX(50px);
-        border: 20px solid white;
+    button.dsuisd {
+        padding: 50px 100px; 
     }
-    .gsdaje2 {
-        height: 500px;
-        background-color: rgba(83, 83, 83, 0.918);
-        width: 500px;
-        border-radius: 20px;
-        padding: 50px;
-        padding-left: 70px;
-    }
-    .gsdaje3 {
-        height: 400px;
-        background: url(../Image/za2.jpg) 50% ;
-        width: 400px;
-        border-radius: 100%;
-        transform: translateX(50px);
-        border: 20px solid white;
-    }
-    .gsdaje4 {
-        height: 500px;
-        background-color: rgba(83, 83, 83, 0.918);
-        width: 500px;
-        border-radius: 20px;
-        padding: 50px;
-        padding-left: 70px;
-    }
-    .gsdaje5 {
-        height: 400px;
-        background: url(../Image/ers.jpg) 50% no-repeat;
-        background-size: cover;
-        width: 400px;
-        border-radius: 100%;
-        transform: translateX(50px);
-        border: 20px solid white;
-    }
-    .gsdaje6 {
-        height: 500px;
-        background-color: rgba(83, 83, 83, 0.918);
-        width: 500px;
-        border-radius: 20px;
-        padding: 50px;
-        padding-left: 70px;
-    }
-    .gsdaje7 {
-        height: 400px;
-        background: url(../Image/echkba.jpg);
-        
-        width: 400px;
-        border-radius: 100%;
-        transform: translateX(50px);
-        border: 20px solid white;
-    }
-    .gsdaje8 {
-        height: 500px;
-        background-color: rgba(83, 83, 83, 0.918);
-        width: 500px;
-        border-radius: 20px;
-        padding: 50px;
-        padding-left: 70px;
-    }
+    
 
     #fooetr {
         height: 700px;
