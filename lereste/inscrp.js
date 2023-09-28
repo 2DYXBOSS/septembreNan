@@ -51,7 +51,7 @@ boutonid.addEventListener("click",(event)=>{
     
     tabUsere.push(usere)
     localStorage.setItem('collabepo',JSON.stringify(tabUsere))
-    window.location.replace("../lereste/pos.html")
+    window.location.replace("./lereste/pos.html")
 })  
 
 

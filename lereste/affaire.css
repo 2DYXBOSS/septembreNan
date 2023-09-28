@@ -604,8 +604,9 @@ input {
         box-shadow: 1px 1px 10px 1px gray;
     }
 
-    
+   
     .jqsc {
+        height: 1800px;
         width: 90%;
         background-color: white;
         display: flex;
@@ -616,17 +617,17 @@ input {
        
     }
     .jyaz {
-        height: 500px;
+        height: 300px;
         width: 70%;
         background-color: white;
         display: flex;
-        align-items: start;
+        align-items: center;
         justify-content: center;
         padding: 50px 50px;
 
     }
     .zedjzloz {
-        height: 50%;
+        height: 80%;
         width: 100%;
         background: url(../Image/posysd.jpg);
         display: flex;
@@ -637,8 +638,9 @@ input {
         box-shadow: 1px 1px 10px 1px gray;
     }
     .jyaz2 {
-        height: 100%;
-        width: 80%;
+
+      
+        width: 90%;
         background-color: rgba(177, 177, 177, 0.295);
         display: flex;
         flex-direction: column;
@@ -650,8 +652,8 @@ input {
         font-size: 1.5rem;
     }
     .aetyatuz {
-        height: 100px;
-        width: 95%;
+      
+        width: 100%;
         background-color: white;
         display: flex;
         margin: 0 auto;
@@ -659,7 +661,26 @@ input {
         align-items: center;
         justify-content: center;
         margin-top: 50px;
+      
         box-shadow: 1px 1px 10px 1px gray;
+    }
+    .aetyatuz h1{
+        color: black;
+        font-size: 1rem;
+        padding-top: 10px;
+      
+    }
+    .aetyatuz h3{
+        color: black;
+        font-size: 1rem;
+      
+    }
+    .aetyatuz p{
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 15px 1px;
+      
     }
     .jyaz12 {
         height: 85%;
