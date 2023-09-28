@@ -46,7 +46,7 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgb(109, 53, 53);
+        background-color: black;
         width: 100%;
         overflow-x: hidden;
     }
@@ -334,9 +334,26 @@ input {
         margin-left: 20px;
        
     }
+    .kzduiuze {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+    }
     
-    
-    
+    .aetyatuz {
+        
+        width: 65%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 20px 54px;
+        box-shadow: 1px 1px 3px 1px gray;
+    }
 }
 
 

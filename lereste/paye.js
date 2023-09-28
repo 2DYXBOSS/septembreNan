@@ -7,7 +7,7 @@ boutonid.addEventListener("click",(event)=>{
     let recoi = document.querySelector("#recoi").value;
     // let nop = document.querySelector("#nop").value;
     
-    alert("La transaction de "+ " "  + " " + parseFloat(monr)+ " "  + " "+ "sur le numero suivant :" +" "  + " "+ parseFloat(recoi) +" "  + " "+"été effectué avec succes par le numero suivant"+" "  + " "+ parseFloat(env) )
+    alert("La transaction de :"+ " "  + " " + parseFloat(monr)+ " " + " FCFA"  + " "+ "sur le numero suivant :" +" "  + " "+ parseFloat(recoi) +" "  + " "+"été effectuée avec succès par le numero suivant : "+ " "  + " "+ parseFloat(env) )
     
     // let usere = {
     //     nameid : nameid,
