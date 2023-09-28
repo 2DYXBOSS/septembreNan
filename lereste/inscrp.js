@@ -17,7 +17,17 @@
 //     localStorage.setItem("formulnan",JSON.stringify(tabUser))
 // })  
 
+let nombre14 = document.querySelector(".nomezm");
+let ezd = JSON.parse(localStorage.getItem("conecternow"));
+ezd.forEach((user) => {
+    wh = ` <span>${user.nameid}</span>`
 
+
+    nombre14.innerHTML = wh
+
+});
+// now223 = ezd.nameid
+// nombre14.innerHTML = now223
 
 // COLLABORATION
 
