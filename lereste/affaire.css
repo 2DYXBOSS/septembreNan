@@ -637,9 +637,8 @@ input {
         padding: 50px;
         box-shadow: 1px 1px 10px 1px gray;
     }
+    
     .jyaz2 {
-
-      
         width: 90%;
         background-color: rgba(177, 177, 177, 0.295);
         display: flex;
