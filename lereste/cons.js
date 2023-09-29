@@ -20,6 +20,7 @@ boutonid.addEventListener("click",(event)=>{
     if (typeof result !== "undefined"){
 
         localStorage.setItem("conecternow",JSON.stringify([result]))
+        sessionStorage.setItem("conecternow",JSON.stringify([result]))
         window.location.replace("../index.html");
     }
     else{
