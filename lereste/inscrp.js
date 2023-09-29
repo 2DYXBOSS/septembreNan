@@ -20,7 +20,7 @@
 let nombre14 = document.querySelector(".nomezm");
 let ezd = JSON.parse(localStorage.getItem("conecternow"));
 ezd.forEach((user) => {
-    wh = ` <span>${user.nameid}</span>`
+    wh = ` <span style="font-size: 2rem;text-transform: uppercase;color: green;font-family: 'Rowdies', cursive;">${user.nameid}</span>`
 
 
     nombre14.innerHTML = wh

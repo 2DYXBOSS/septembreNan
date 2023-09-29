@@ -37,7 +37,7 @@ boutonid.addEventListener("click",(event)=>{
     //     localStorage.setItem('inscpce',JSON.stringify(tbeUser))
     //     window.location.replace("../index.html")}
     if (emailid === "aaa@123" && passwordid === "aaa@123") {
-        alert("VOUS ETES BIEN ADMINITRATEUR DE CE SITE")
+        alert("VOUS ETES BIEN ADMINITRATEUR DE CE SITE ! VOUS AVEZ DONC ACCES")
         console.log(tbeUser.emailid)
         usere = {
             emailid : emailid,

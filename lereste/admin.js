@@ -66,8 +66,8 @@ let rec = document.querySelector(".kzduiuze");
 let egcdfczzd = JSON.parse(localStorage.getItem("poster"));
 egcdfczzd.forEach((user) => {
     gdsh = `  <div class="aetyatuz">
-                <h1 style="color: black; font-size: 1.5rem;font-family: 'Rowdies', cursive;">${user.typre}</h1>
-                <h3>${user.empres}</h3>
+                <h1 style="color: black; font-size: 1.5rem;font-family: 'Rowdies', cursive;text-transform: uppercase;">${user.nome}</h1>
+                <h3>${user.emai}</h3>
                 <p>${user.descr}</p>
             </div>
         `
