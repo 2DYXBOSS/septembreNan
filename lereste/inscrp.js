@@ -190,3 +190,11 @@ boutonide.addEventListener("click",(event)=>{
 //     sote.classList.add('active');
 // })
 
+
+// let cloque = document.querySelector("#ho");
+// cloque.addEventListener("click",(event)=>{
+//     event.preventDefault()
+//     let vrai = document.querySelector(".su");
+//     vrai.style.color = "red";
+    
+// }) 

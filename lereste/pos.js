@@ -33,24 +33,24 @@ data.forEach((user) => {
             <div class="kdhcep">
                 <div class="kljdd1">
                     <div class="dskdzq1">
-                        
+                        <img src="https://source.unsplash.com/random/post" height="100%" width="100%" alt="">
                     </div>
                     <div class="dskdzq2">
-                        <h1 style="color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">${user.nome}</h1>
+                        <h1 style="color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">${user.nome}</h1>
                         <h3 style="color: black;">${user.emai}</h3>
                         <p style="color: black;">${user.aute}</p>
                     </div>
                 </div>
                 <div class="kljdd2">
-                    <h1 style="color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Type de projet</h1>
+                    <h1 style="color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Type de projet</h1>
                     <p style="color: black;">${user.nomdepr}</p>
 
-                    <h1 style="color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Description du projet</h1>
+                    <h1 style="color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Description du projet</h1>
                     <h3 style="color: black;">${user.nomdd}</h3>
                     <p style="color: black;">${user.descr}</p>
-                    <h1 style="color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Pourquoi doit-on vous aidez ?</h1>
+                    <h1 style="color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Pourquoi doit-on vous aidez ?</h1>
                     <p style="color: black;">${user.aide}</p>
-                    <h1 style="color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Combien voulez vous et Pourquoi cette somme ?</h1>
+                    <h1 style="color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Combien voulez vous et Pourquoi cette somme ?</h1>
                     <p style="color: black;">${user.somme}</p>
                 </div>
                 
